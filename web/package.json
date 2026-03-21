@@ -4,6 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "serve": "node server.js"
+    "serve": "node server.js",
+    "test": "node --test test/*.js",
+    "test:watch": "node --test --watch test/*.js"
   }
 }

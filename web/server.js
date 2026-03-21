@@ -1,7 +1,8 @@
 import { createServer } from 'node:http';
 import { readFile } from 'node:fs/promises';
-import { extname, relative, resolve } from 'node:path';
+import { extname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { safePublicPath } from './lib/safe-public-path.js';
 
 const __dirname = fileURLToPath(new URL('.', import.meta.url));
 const publicRoot = resolve(__dirname, 'public');
@@ -20,23 +21,6 @@ const mimeByExt = {
   '.woff2': 'font/woff2',
 };
 
-function safePublicPath(urlPath) {
-  let decoded;
-  try {
-    decoded = decodeURIComponent(urlPath.split('?')[0] ?? '/');
-  } catch {
-    return null;
-  }
-  const pathFromUrl = decoded === '/' ? 'index.html' : decoded.replace(/^\//, '');
-  const segments = pathFromUrl.split('/').filter((s) => s !== '' && s !== '.');
-  const candidate = resolve(publicRoot, ...segments);
-  const rel = relative(publicRoot, candidate);
-  if (rel.startsWith('..') || rel === '') {
-    return null;
-  }
-  return candidate;
-}
-
 const server = createServer(async (req, res) => {
   if (req.method !== 'GET' && req.method !== 'HEAD') {
     res.writeHead(405, { Allow: 'GET, HEAD' });
@@ -44,7 +28,7 @@ const server = createServer(async (req, res) => {
     return;
   }
 
-  const filePath = safePublicPath(req.url ?? '/');
+  const filePath = safePublicPath(req.url ?? '/', publicRoot);
   if (!filePath) {
     res.writeHead(400);
     res.end();
