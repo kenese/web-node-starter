@@ -1,5 +1,4 @@
 export class CommentsCollection {
-
   comments;
 
   constructor() {
@@ -24,12 +23,11 @@ export class CommentsCollection {
     if (!this.comments.has(commentId)) {
       throw new Error('Comment not found');
     }
-    const children =
-      this.comments.get(commentId).replies;
+    const children = this.comments.get(commentId).replies;
     return {
       ...this.comments.get(commentId),
-      replies: children.map(childId => this.getComment(childId)),
-    }
+      replies: children.map((childId) => this.getComment(childId)),
+    };
   }
 
   getComments() {
@@ -44,9 +42,11 @@ export class CommentsCollection {
     const comment = this.comments.get(commentId);
     const parentId = comment.parentId;
     if (parentId) {
-      this.comments.get(parentId).replies = this.comments.get(parentId).replies.filter(id => id !== commentId);
+      this.comments.get(parentId).replies = this.comments
+        .get(parentId)
+        .replies.filter((id) => id !== commentId);
     }
-    comment.replies.forEach(childCommentId => {
+    comment.replies.forEach((childCommentId) => {
       this.deleteComment(childCommentId);
     });
     this.comments.delete(commentId);

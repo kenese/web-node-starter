@@ -8,10 +8,13 @@ comments.addComment({
   author: 'Alice',
 });
 
-comments.addComment({
-  id: '2',
-  content: 'Hello, world!',
-  author: 'Bob',
-}, '1');
+comments.addComment(
+  {
+    id: '2',
+    content: 'Hello, world!',
+    author: 'Bob',
+  },
+  '1'
+);
 
 console.log(comments.getComment('1'));

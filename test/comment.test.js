@@ -35,10 +35,9 @@ describe('CommentsCollection', () => {
 
   it('throws when getting non-existent comment', () => {
     const collection = new CommentsCollection();
-    assert.throws(
-      () => collection.getComment('999'),
-      { message: 'Comment not found' }
-    );
+    assert.throws(() => collection.getComment('999'), {
+      message: 'Comment not found',
+    });
   });
 
   it('getComment returns replies of a comment', () => {
@@ -55,7 +54,10 @@ describe('CommentsCollection', () => {
     const collection = new CommentsCollection();
     collection.addComment({ id: '1', content: 'Parent', author: 'Alice' });
     collection.addComment({ id: '2', content: 'Reply1', author: 'Bob' }, '1');
-    collection.addComment({ id: '3', content: 'Reply2', author: 'Charlie' }, '2');
+    collection.addComment(
+      { id: '3', content: 'Reply2', author: 'Charlie' },
+      '2'
+    );
     collection.addComment({ id: '4', content: 'Reply3', author: 'David' }, '3');
     collection.addComment({ id: '5', content: 'Reply4', author: 'Eve' }, '4');
 
@@ -65,11 +67,19 @@ describe('CommentsCollection', () => {
     assert.strictEqual(comment.replies.length, 1);
     assert.strictEqual(comment.replies[0].content, 'Reply1');
     assert.strictEqual(comment.replies[0].replies[0].content, 'Reply2');
-    assert.strictEqual(comment.replies[0].replies[0].replies[0].content, 'Reply3');
-    assert.strictEqual(comment.replies[0].replies[0].replies[0].replies[0].content, 'Reply4');
-    assert.strictEqual(comment.replies[0].replies[0].replies[0].replies[0].replies.length, 0);
+    assert.strictEqual(
+      comment.replies[0].replies[0].replies[0].content,
+      'Reply3'
+    );
+    assert.strictEqual(
+      comment.replies[0].replies[0].replies[0].replies[0].content,
+      'Reply4'
+    );
+    assert.strictEqual(
+      comment.replies[0].replies[0].replies[0].replies[0].replies.length,
+      0
+    );
   });
-
 
   it('getComments returns the comments map', () => {
     const collection = new CommentsCollection();
@@ -91,7 +101,10 @@ describe('CommentsCollection', () => {
     const collection = new CommentsCollection();
     collection.addComment({ id: '1', content: 'Test', author: 'Alice' });
     collection.addComment({ id: '2', content: 'Reply', author: 'Bob' }, '1');
-    collection.addComment({ id: '3', content: 'Reply', author: 'Charlie' }, '2');
+    collection.addComment(
+      { id: '3', content: 'Reply', author: 'Charlie' },
+      '2'
+    );
     collection.deleteComment('1');
 
     assert.strictEqual(collection.comments.size, 0);
@@ -103,7 +116,10 @@ describe('CommentsCollection', () => {
     collection.addComment({ id: '4', content: 'Test', author: 'Darren' });
     collection.addComment({ id: '5', content: 'Test', author: 'Eric' });
     collection.addComment({ id: '2', content: 'Reply', author: 'Bob' }, '1');
-    collection.addComment({ id: '3', content: 'Reply', author: 'Charlie' }, '2');
+    collection.addComment(
+      { id: '3', content: 'Reply', author: 'Charlie' },
+      '2'
+    );
     collection.deleteComment('1');
 
     assert.ok(!collection.comments.has('1'));
@@ -112,21 +128,33 @@ describe('CommentsCollection', () => {
     assert.strictEqual(collection.comments.size, 2);
   });
 
-
   it('delete removes commentId from parent comment replies', () => {
     const collection = new CommentsCollection();
     collection.addComment({ id: '1', content: 'Comment', author: 'Alice' });
-    collection.addComment({ id: '2', content: 'Reply1', author: 'Darren' }, '1');
+    collection.addComment(
+      { id: '2', content: 'Reply1', author: 'Darren' },
+      '1'
+    );
     collection.addComment({ id: '3', content: 'Reply2', author: 'Bob' }, '1');
-    collection.addComment({ id: '4', content: 'Reply3', author: 'Charlie' }, '2');
+    collection.addComment(
+      { id: '4', content: 'Reply3', author: 'Charlie' },
+      '2'
+    );
     collection.deleteComment('2');
 
-    assert.strictEqual(collection.comments.get('1').replies.length, 1);
-    assert.strictEqual(collection.comments.get('1').replies[0], '3');
+    assert.strictEqual(
+      collection.comments.get('1').replies.length,
+      1,
+      'after deleting comment 2, comment 1 should only have 1 reply'
+    );
+    assert.strictEqual(
+      collection.comments.get('1').replies[0],
+      '3',
+      'after deleting comment 2, comment 1 should list reply 3'
+    );
     assert.ok(collection.comments.has('3'));
-    
+
     assert.ok(!collection.comments.has('2'));
     assert.ok(!collection.comments.has('4'));
   });
-
 });
