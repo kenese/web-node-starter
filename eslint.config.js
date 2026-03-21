@@ -14,5 +14,11 @@ export default [
       globals: globals.node,
     },
   },
+  {
+    files: ['web/public/**/*.js'],
+    languageOptions: {
+      globals: globals.browser,
+    },
+  },
   eslintConfigPrettier,
 ];

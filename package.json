@@ -1,11 +1,19 @@
 {
   "name": "comment-class",
   "version": "1.0.0",
+  "private": true,
   "type": "module",
+  "workspaces": [
+    "web",
+    "node"
+  ],
   "scripts": {
-    "start": "node src/index.js",
-    "test": "node --test test/*.js",
-    "test:watch": "node --test --watch test/*.js",
+    "serve": "npm run serve --workspace=web",
+    "start": "npm run start --workspace=node",
+    "start:node": "npm run start --workspace=node",
+    "start:web": "npm run serve --workspace=web",
+    "test": "npm run test --workspace=node",
+    "test:watch": "npm run test:watch --workspace=node",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "format": "prettier --write .",

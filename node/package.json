@@ -1,22 +1,11 @@
 {
-  "name": "comment-class",
+  "name": "comment-class-node",
   "version": "1.0.0",
+  "private": true,
   "type": "module",
   "scripts": {
-    "start:node": "node src/index.js",
-    "start": "node src/server.js",
-    "test:node": "node --test test/*.js",
-    "test:watch": "node --test --watch test/*.js",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
-    "format": "prettier --write .",
-    "format:check": "prettier --check ."
-  },
-  "devDependencies": {
-    "@eslint/js": "^10.0.1",
-    "eslint": "^10.1.0",
-    "eslint-config-prettier": "^10.1.8",
-    "globals": "^17.4.0",
-    "prettier": "^3.8.1"
+    "start": "node src/index.js",
+    "test": "node --test test/*.js",
+    "test:watch": "node --test --watch test/*.js"
   }
 }
