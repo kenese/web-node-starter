@@ -29,3 +29,32 @@ p {
   margin: 0;
   color: #444;
 }
+
+#stage {
+  width: 100vw;
+  height: 100vh;
+  background: #f0f0f0;
+  position: relative;
+  overflow: hidden;
+}
+
+.sticker {
+  width: 100px;
+  height: 100px;
+  background: #fff;
+  border: 2px solid #ccc;
+  position: absolute;
+  transform: translate(50px, 50px);
+  cursor: move;
+  user-select: none;
+}
+
+.second-sticker {
+  transform: translate(200px, 50px);
+}
+
+.sticker.active {
+  border-color: #00c4cc !important;
+  box-shadow: 0 0 10px rgba(0, 196, 204, 0.5);
+  z-index: 10;
+}

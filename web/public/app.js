@@ -1,6 +1,8 @@
-import { tagline } from './message.js';
+import { Canvas } from './canvas.js';
 
-const el = document.querySelector('#client-note');
-if (el) {
-  el.textContent = tagline();
+const canvas = new Canvas();
+canvas.init();
+
+const closeCanvas = () => {
+    canvas.destroy();
 }
