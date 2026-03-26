@@ -35,7 +35,7 @@ p {
   height: 100vh;
   background: #f0f0f0;
   position: relative;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 .sticker {
@@ -54,7 +54,6 @@ p {
 }
 
 .sticker.active {
-  border-color: #00c4cc !important;
-  box-shadow: 0 0 10px rgba(0, 196, 204, 0.5);
-  z-index: 10;
+  border-color: lightskyblue;
+  box-shadow: 1px 1px 10px deepskyblue;
 }
