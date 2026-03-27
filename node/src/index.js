@@ -1,5 +1,5 @@
-import { Thing } from './Thing.js';
+import { Comments } from './Comment.js';
 
-const thing = new Thing();
+const comments = new Comments();
 
-console.log(thing.hello());
+console.log(comments.addComment('Hello World'));

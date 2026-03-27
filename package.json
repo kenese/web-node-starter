@@ -13,6 +13,7 @@
     "start:node": "npm run start --workspace=node",
     "start:web": "npm run serve --workspace=web",
     "test": "npm run test --workspace=node && npm run test --workspace=web",
+    "test:node": "npm run test --workspace=node && npm run test --workspace=web",
     "test:watch": "npm run test:watch --workspace=node",
     "test:web": "npm run test --workspace=web",
     "test:web:watch": "npm run test:watch --workspace=web",
