@@ -9,9 +9,11 @@
   <body>
     <main>
       <h1>Hello</h1>
-      <p>This page is served by the lightweight Node static server.</p>
-      <p id="client-note"></p>
+      <button id="toggle">Listen</button>
+      <button id="click">Click Me</button>
     </main>
+    <!-- Add this line above <script src="./index.js"></script> -->
+    <script src="https://unpkg.com/rxjs@^7/dist/bundles/rxjs.umd.min.js"></script>
     <script type="module" src="/app.js"></script>
   </body>
 </html>
