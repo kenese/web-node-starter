@@ -8,6 +8,7 @@
     "node"
   ],
   "scripts": {
+    "dev:web": "npm run dev --workspace=web",
     "serve": "npm run serve --workspace=web",
     "start": "npm run start --workspace=node",
     "start:node": "npm run start --workspace=node",
@@ -26,6 +27,7 @@
     "eslint": "^10.1.0",
     "eslint-config-prettier": "^10.1.8",
     "globals": "^17.4.0",
-    "prettier": "^3.8.1"
+    "prettier": "^3.8.1",
+    "browser-sync": "^3.0.4"
   }
 }
