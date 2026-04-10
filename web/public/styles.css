@@ -40,10 +40,23 @@ p {
   background-color: pink;
   border: 3px solid plum;
   position: relative;
+  user-select: none;
 }
 
 .image {
   position: absolute;
   height: 50px;
   width: 50px;
+}
+
+.score {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  font-weight: bold;
+  background-color: palevioletred;
+  padding: 5px;
+  border-radius: 5px;
+  opacity: 0.5;
+  color: white;
 }
