@@ -63,11 +63,19 @@ class Board {
     img.classList.add('image');
     const imageX = Math.floor(Math.random() * (this.boardWidth - this.IMAGE_WIDTH));
     const imageY = Math.floor(Math.random() * (this.boardHeight - this.IMAGE_HEIGHT));
-    const imageDirectionX = Math.random() * 2 - 1;
-    const imageDirectionY = Math.random() * 2 - 1;
+    
+    // uses trigonometry to get a random direction rather than independent random numbers between -1 and 1 for x and y
+    const angle = Math.random() * Math.PI * 2;
+    const imageDirectionX = Math.cos(angle);
+    const imageDirectionY = Math.sin(angle);
+
+    // old way
+    // const imageDirectionX = Math.random() * 2 - 1;
+    // const imageDirectionY = Math.random() * 2 - 1;
 
     img.style.transform = `translate(${imageX}px, ${imageY}px)`
 
+    // less performant
     // this.image.style.left = left + 'px';
     // this.image.style.top = top + 'px';
 
