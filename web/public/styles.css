@@ -17,6 +17,10 @@ main {
   max-width: 40rem;
   margin: 0 auto;
   padding: 2rem 1.5rem;
+
+  display: grid;
+  place-items: center; /* Shorthand for align-items and justify-items */
+  height: 100vh;
 }
 
 h1 {
@@ -28,4 +32,18 @@ h1 {
 p {
   margin: 0;
   color: #444;
+}
+
+.board {
+  width: 80vw;
+  height: 80vh;
+  background-color: pink;
+  border: 3px solid plum;
+  position: relative;
+}
+
+.image {
+  position: absolute;
+  height: 50px;
+  width: 50px;
 }
