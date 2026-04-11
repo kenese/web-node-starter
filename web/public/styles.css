@@ -14,18 +14,8 @@ body {
 }
 
 main {
-  max-width: 40rem;
   margin: 0 auto;
-  padding: 2rem 1.5rem;
-}
-
-h1 {
-  margin: 0 0 0.5rem;
-  font-size: 1.75rem;
-  font-weight: 600;
-}
-
-p {
-  margin: 0;
-  color: #444;
+  display: grid;
+  place-content: center;
+  padding-top: 10vh;
 }
