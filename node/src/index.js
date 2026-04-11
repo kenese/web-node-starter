@@ -217,3 +217,50 @@ const thing = myPromise.then((value) => {
 }).then(value => {
     console.log(value);
 }, console.error)
+
+
+class TaskRunner {
+    constructor(maxConcurrent) {
+        this.maxConcurrent = maxConcurrent;
+        this.queue = [];
+        this.running = 0;
+    }
+
+    run() {
+        const task = this.queue.shift();
+        if (!task) return;
+
+        this.running++;
+        task().then(() => {
+            this.running--;
+            this.run();
+        });
+    }
+
+    push(taskToQueue) {
+        this.queue.push(taskToQueue);
+        if (this.running < this.maxConcurrent) {
+            this.run()
+        }
+    }
+}
+
+
+const runner = new TaskRunner(3); // Limit to 2 concurrent tasks
+
+const task = (id, ms) => () =>
+    new Promise(resolve => setTimeout(() => {
+        console.log(`Task ${id} done`);
+        resolve(id);
+    }, ms));
+
+// Should start immediately
+runner.push(task(1, 5000));
+runner.push(task(2, 2000));
+runner.push(task(3, 1000));
+runner.push(task(4, 500));
+runner.push(task(5, 1000));
+runner.push(task(6, 100));
+
+// Should wait until Task 2 finishes (at 500ms) before starting
+runner.push(task(7, 100));
