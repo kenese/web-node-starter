@@ -1,95 +1,95 @@
-export class Observable {
-    subscriptions = new Set();
+// export class Observable {
+//     subscriptions = new Set();
 
-    constructor(subscriber) {
-        this.subscription = subscriber;
-    }
+//     constructor(subscriber) {
+//         this.subscription = subscriber;
+//     }
 
-    subscribe(observer) {
-        this.subscriptions.add(observer);
+//     subscribe(observer) {
+//         this.subscriptions.add(observer);
 
-        this.subscription({
-            next: (thing) => {
-                if (this.subscriptions.has(observer)) {
-                    observer.next(thing);
-                }
-            },
-            complete: () => {
-                observer.complete();
-            },
-            error: err => {
-                if (this.subscriptions.has(observer)) {
-                    observer.error(err);
-                }
-            }
-        })
+//         this.subscription({
+//             next: (thing) => {
+//                 if (this.subscriptions.has(observer)) {
+//                     observer.next(thing);
+//                 }
+//             },
+//             complete: () => {
+//                 observer.complete();
+//             },
+//             error: err => {
+//                 if (this.subscriptions.has(observer)) {
+//                     observer.error(err);
+//                 }
+//             }
+//         })
 
-        return {
-            unsubscribe: () => {
-                this.subscriptions.delete(observer);
-            }
-        }
-    }
-}
-
-
-// Simple counter example
-const counter = new Observable(observer => {
-    for (let i = 0; i < 10; i++) {
-        observer.next(i);
-    }
-    observer.complete();
-});
-counter.subscribe({next: console.log, complete: () => console.log('completed 1')}); // 0, 1, 2, 3 ... 9
-counter.subscribe({next: console.log, complete: () => console.log('completed 2')}); // 0, 1, 2, 3 ... 9
+//         return {
+//             unsubscribe: () => {
+//                 this.subscriptions.delete(observer);
+//             }
+//         }
+//     }
+// }
 
 
-// 2. Error Handling
-const errorObservable$ = new Observable(subscriber => {
-    try {
-        subscriber.next(1);
-        throw new Error('Something went wrong!');
-    } catch (err) {
-        subscriber.error(err); // Deliver the error notification
-    }
-});
-
-const observer = {
-    next: (value) => console.log('Received value:', value),
-    error: (err) => console.error('Observer caught an error:', err.message),
-    complete: () => console.log('Completed:')
-};
-
-errorObservable$.subscribe(observer);
+// // Simple counter example
+// const counter = new Observable(observer => {
+//     for (let i = 0; i < 10; i++) {
+//         observer.next(i);
+//     }
+//     observer.complete();
+// });
+// counter.subscribe({next: console.log, complete: () => console.log('completed 1')}); // 0, 1, 2, 3 ... 9
+// counter.subscribe({next: console.log, complete: () => console.log('completed 2')}); // 0, 1, 2, 3 ... 9
 
 
-// 3. Unsubscribe example
-const toggleButton = document.getElementById('toggle');
-const clickButton = document.getElementById('click');
-const clickEvents = new Observable((observer) => {
-    const handler = (event) => {
-        return observer.next(event);
-    }
-    clickButton.addEventListener('click', handler, true);
+// // 2. Error Handling
+// const errorObservable$ = new Observable(subscriber => {
+//     try {
+//         subscriber.next(1);
+//         throw new Error('Something went wrong!');
+//     } catch (err) {
+//         subscriber.error(err); // Deliver the error notification
+//     }
+// });
 
-    return () => {
-        clickButton.removeEventListener('click', handler, true);
-    };
-});
-let clickEventsSubscription;
+// const observer = {
+//     next: (value) => console.log('Received value:', value),
+//     error: (err) => console.error('Observer caught an error:', err.message),
+//     complete: () => console.log('Completed:')
+// };
 
-function toggle() {
-    if (clickEventsSubscription) {
-        clickEventsSubscription.unsubscribe();
-        clickEventsSubscription = undefined;
-        toggleButton.innerText = 'Listen';
-        return;
-    }
-    clickEventsSubscription = clickEvents.subscribe({next: console.log});
-    toggleButton.innerText = 'Stop Listening';
-}
+// errorObservable$.subscribe(observer);
 
-toggleButton.addEventListener('click', toggle);
+
+// // 3. Unsubscribe example
+// const toggleButton = document.getElementById('toggle');
+// const clickButton = document.getElementById('click');
+// const clickEvents = new Observable((observer) => {
+//     const handler = (event) => {
+//         return observer.next(event);
+//     }
+//     clickButton.addEventListener('click', handler, true);
+
+//     return () => {
+//         clickButton.removeEventListener('click', handler, true);
+//     };
+// });
+// let clickEventsSubscription;
+
+// function toggle() {
+//     if (clickEventsSubscription) {
+//         clickEventsSubscription.unsubscribe();
+//         clickEventsSubscription = undefined;
+//         toggleButton.innerText = 'Listen';
+//         return;
+//     }
+//     clickEventsSubscription = clickEvents.subscribe({next: console.log});
+//     toggleButton.innerText = 'Stop Listening';
+// }
+
+// toggleButton.addEventListener('click', toggle);
 
 
 
@@ -104,9 +104,9 @@ toggleButton.addEventListener('click', toggle);
 class PromiseNew {
     constructor(executor) {
         this.executor = executor;
+        this.value = this.executor(onFullFilled, onRejected);
     }
-    then (onFullFilled, onRejected) {
-        const thing = this.executor(onFullFilled, onRejected);
+    then(onFullFilled, onRejected) {
         debugger;
         return this;
     }
@@ -147,41 +147,54 @@ class MyPromise {
     }
 
     then(onFulfilled, onRejected) {
-        this.handlers.push({ onFulfilled, onRejected });
+        return new MyPromise((resolve, reject) => {
+            const runReaction = () => {
+                if (this.state === FULFILLED) {
+                    if (typeof onFulfilled === 'function') {
+                        try {
+                            resolve(onFulfilled(this.value));
+                        } catch (err) {
+                            reject(err);
+                        }
+                    } else {
+                        resolve(this.value);
+                    }
+                } else {
+                    if (typeof onRejected === 'function') {
+                        try {
+                            resolve(onRejected(this.value));
+                        } catch (err) {
+                            reject(err);
+                        }
+                    } else {
+                        reject(this.value);
+                    }
+                }
+            };
 
-        // If the promise is already settled, run handlers immediately
-        if (this.state !== PENDING) {
-            this._executeHandlers();
-        }
-
-        return this;
+            if (this.state === PENDING) {
+                this.handlers.push(runReaction);
+            } else {
+                queueMicrotask(runReaction);
+            }
+        });
     }
 
     _executeHandlers() {
         if (this.state === PENDING) return;
 
-        this.handlers.forEach((handler) => {
-            debugger;
-            if (this.state === FULFILLED) {
-                if (typeof handler.onFulfilled === 'function') {
-                    this.value = handler.onFulfilled(this.value);
-                }
-            } else {
-                if (typeof handler.onRejected === 'function') {
-                    this.value = handler.onRejected(this.value);
-                }
-            }
-        });
+        const pending = this.handlers;
+        this.handlers = [];
 
-        debugger;
-        this.handlers = []; // Clear handlers after execution
+        for (const runReaction of pending) {
+            queueMicrotask(runReaction);
+        }
     }
-
 }
 
 
 const myPromise = new MyPromise((resolve, reject) => {
-    console.log('Promise setup');
+    console.log('Promise executorsetup');
     // reject('nah');
     try {
         // throw "nah";
@@ -196,8 +209,8 @@ const myPromise = new MyPromise((resolve, reject) => {
 
 const thing = myPromise.then((value) => {
     console.log(value);
-    throw value;
-    // return value + ' baa';
+    // throw value;
+    return value + ' baa';
 }, (err) => {
     console.error(err);
     return 'twas an error';
