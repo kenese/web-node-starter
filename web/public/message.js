@@ -1,3 +1,3 @@
 export function tagline() {
-  return 'Client script loaded (module + dependency).';
+  return 'Client script loaded (module + dependency). yay';
 }
