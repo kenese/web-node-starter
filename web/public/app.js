@@ -1,6 +1,6 @@
 
 function fetchSuggestions(query, signal) {
-    return new Promise((resolve) => {
+    return new Promise((resolve, reject) => {
         const suggestions = ["Poster", "Instagram Post", "Presentation", "Video", "Resume", "Logo", "Flyer"]
             .filter(item => item.toLowerCase().includes(query.toLowerCase()));
 
@@ -9,8 +9,8 @@ function fetchSuggestions(query, signal) {
         }, Math.random() * 900 + 100);
 
         signal.onabort = () => {
-            console.log('aborting', query);
             clearTimeout(timeoutId);
+            reject({ query, aborted: true });
         };
     });
 }
@@ -18,6 +18,7 @@ function fetchSuggestions(query, signal) {
 class SearchController {
     timeoutId = null;
     abortController = null;
+    allResults = new Map();
 
     constructor() {
         this.searchInput = document.getElementById('search-input');
@@ -41,6 +42,12 @@ class SearchController {
                 this.timeoutId = null;
 
                 const text = e.target.value;
+                if (this.allResults.has(text)) {
+                    console.log('rendering from cache', text);
+                    this.currentResults = this.allResults.get(text);
+                    this.updateDOM();
+                    return;
+                }
                 await this.fetchResults(text);
             }, 10);
         })
@@ -52,18 +59,26 @@ class SearchController {
         }
         this.abortController = new AbortController();
 
-        console.log('fetching:', text);
+        try {
+            console.log('fetching:', text);
+            this.currentResults = await fetchSuggestions(text, this.abortController.signal);
+            this.allResults.set(text, this.currentResults);
+        } catch (error) {
+            if (error.aborted) {
+                console.log('aborted:', error.query)
+                return
+            }
+            console.error(error);
+        }
 
-        this.results = await fetchSuggestions(text, this.abortController.signal);
-        console.log('render results:', this.results);
-
+        console.log('render results:', text, this.currentResults);
         this.updateDOM();
     }
 
     updateDOM() {
         const fragment = document.createDocumentFragment();
 
-        this.results.forEach(item => {
+        this.currentResults.forEach(item => {
             const el = document.createElement('div');
             el.textContent = item;
             fragment.appendChild(el);
