@@ -19,12 +19,17 @@ class SearchController {
     timeoutId = null;
     abortController = null;
 
-    constructor(props) {
+    constructor() {
         this.searchInput = document.getElementById('search-input');
         this.resultsList = document.getElementById('results-list');
 
         this.setupListener();
+        this.prefetch();
     }
+
+    async prefetch ()  {
+        await this.fetchResults('');
+    };
 
     setupListener() {
         this.searchInput.addEventListener('input', async (e) => {
@@ -33,22 +38,26 @@ class SearchController {
                 clearTimeout(timeoutId);
             }
             this.timeoutId = setTimeout(async () => {
-
-                if (this.abortController) {
-                    this.abortController.abort()
-                }
                 this.timeoutId = null;
-                this.abortController = new AbortController();
 
                 const text = e.target.value;
-                console.log('fetching:', text);
-
-                this.results = await fetchSuggestions(text, this.abortController.signal);
-                console.log('render results:', this.results);
-
-                this.updateDOM();
+                await this.fetchResults(text);
             }, 10);
         })
+    }
+
+    async fetchResults(text) {
+        if (this.abortController) {
+            this.abortController.abort()
+        }
+        this.abortController = new AbortController();
+
+        console.log('fetching:', text);
+
+        this.results = await fetchSuggestions(text, this.abortController.signal);
+        console.log('render results:', this.results);
+
+        this.updateDOM();
     }
 
     updateDOM() {
@@ -65,8 +74,6 @@ class SearchController {
 }
 
 new SearchController();
-
-
 
 
 
