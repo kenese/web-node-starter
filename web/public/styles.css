@@ -19,3 +19,15 @@ main {
   place-content: center;
   padding-top: 10vh;
 }
+
+.board {
+  height: 80vh;
+  width: 80vw;
+  background: lightskyblue;
+  user-select: none;
+}
+
+.target {
+  height: 50px;
+  width: 50px;
+}
