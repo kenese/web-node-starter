@@ -6,7 +6,6 @@
 
 body {
   margin: 0;
-  min-height: 100vh;
   font-family: system-ui, sans-serif;
   line-height: 1.5;
   color: #1a1a1a;
@@ -17,5 +16,29 @@ main {
   margin: 0 auto;
   display: grid;
   place-content: center;
-  padding-top: 10vh;
+  padding-top: 100px;
+}
+
+.board {
+  background: pink;
+  border: 2px solid palevioletred;
+  height: 400px;
+  width: 800px;
+  position: relative;
+  user-select: none;
+  cursor: none;
+}
+
+.ball {
+  filter: invert(43%) hue-rotate(85deg) saturate(2476%);
+  height: 20px;
+  width: 20px;
+}
+
+.player {
+  position: absolute;
+  height: 80px;
+  width: 6px;
+  border: 1px solid darkred;
+  background-color: palevioletred;
 }
