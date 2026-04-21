@@ -1,0 +1,2374 @@
+{
+    "orders": [
+        {
+            "seller": "climate_ctrl",
+            "subtotal_orig": 15.75,
+            "subtotal_nzd": 26.77,
+            "shipping_nzd": 71.4,
+            "total_nzd": 112.9,
+            "rate": 1.6996825396825397,
+            "items": [
+                {
+                    "name": "Rocket (4) - Here Comes My Love (12\")",
+                    "normalized_name": "rocket - here comes my love (12\")",
+                    "condition": "Very Good Plus (VG+)",
+                    "price_orig": 9.45,
+                    "price_nzd": 16.061999999999998,
+                    "shipping_inc_nzd": 51.762,
+                    "total_inc_tax_ship_nzd": 59.528672710604056,
+                    "shipping_share_nzd": 35.7
+                },
+                {
+                    "name": "Sister Sledge - We Are Family (LP, Album, RI )",
+                    "normalized_name": "sister sledge - we are family",
+                    "condition": "Very Good (VG)",
+                    "price_orig": 6.3,
+                    "price_nzd": 10.708,
+                    "shipping_inc_nzd": 46.408,
+                    "total_inc_tax_ship_nzd": 53.37132728939595,
+                    "shipping_share_nzd": 35.7
+                }
+            ]
+        },
+        {
+            "seller": "decks.de",
+            "subtotal_orig": 52.39999999999999,
+            "subtotal_nzd": 104.8,
+            "shipping_nzd": 82.02,
+            "total_nzd": 214.84,
+            "rate": 2.0000000000000004,
+            "items": [
+                {
+                    "name": "Ike Noble & The Uptights* - It's Bad / Best Of Luck To You (7\", Single)",
+                    "normalized_name": "ike noble & the uptights* - it's bad / best of luck to you",
+                    "condition": "Mint (M)",
+                    "price_orig": 18.89,
+                    "price_nzd": 37.78000000000001,
+                    "shipping_inc_nzd": 65.12,
+                    "total_inc_tax_ship_nzd": 74.88695428754953,
+                    "shipping_share_nzd": 27.34
+                },
+                {
+                    "name": "Doc Severinsen - I Wanna Be With You (DJ Harvey's Pacific Beach Edit) (12\", RE, RM)",
+                    "normalized_name": "doc severinsen - i wanna be with you (dj harvey's pacific beach edit)",
+                    "condition": "Mint (M)",
+                    "price_orig": 16.63,
+                    "price_nzd": 33.260000000000005,
+                    "shipping_inc_nzd": 60.60000000000001,
+                    "total_inc_tax_ship_nzd": 69.68902687078473,
+                    "shipping_share_nzd": 27.34
+                },
+                {
+                    "name": "Hudson People - Trip To Your Mind (DJ Friction Reworks) (7\", Single, Ltd)",
+                    "normalized_name": "hudson people - trip to your mind (dj friction reworks)",
+                    "condition": "Mint (M)",
+                    "price_orig": 16.88,
+                    "price_nzd": 33.760000000000005,
+                    "shipping_inc_nzd": 61.10000000000001,
+                    "total_inc_tax_ship_nzd": 70.26401884166579,
+                    "shipping_share_nzd": 27.34
+                }
+            ]
+        },
+        {
+            "seller": "DJ_Martin_M",
+            "subtotal_orig": 13.9,
+            "subtotal_nzd": 27.8,
+            "shipping_nzd": 25.8,
+            "total_nzd": 61.66,
+            "rate": 2.0,
+            "items": [
+                {
+                    "name": "Rocket (4) - Here Comes My Love (12\")",
+                    "normalized_name": "rocket - here comes my love (12\")",
+                    "condition": "Very Good Plus (VG+)",
+                    "price_orig": 13.9,
+                    "price_nzd": 27.8,
+                    "shipping_inc_nzd": 53.6,
+                    "total_inc_tax_ship_nzd": 61.66,
+                    "shipping_share_nzd": 25.8
+                }
+            ]
+        },
+        {
+            "seller": "Emper0rTomato",
+            "subtotal_orig": 130.0,
+            "subtotal_nzd": 221.0,
+            "shipping_nzd": 34.0,
+            "total_nzd": 293.25,
+            "rate": 1.7,
+            "items": [
+                {
+                    "name": "Rocket (4) - Rocket (LP, Album)",
+                    "normalized_name": "rocket - rocket",
+                    "condition": "Very Good Plus (VG+)",
+                    "price_orig": 130.0,
+                    "price_nzd": 221.0,
+                    "shipping_inc_nzd": 255.0,
+                    "total_inc_tax_ship_nzd": 293.25,
+                    "shipping_share_nzd": 34.0
+                }
+            ]
+        },
+        {
+            "seller": "For_The_Love_of_Haus",
+            "subtotal_orig": 47.16,
+            "subtotal_nzd": 94.32,
+            "shipping_nzd": 36.0,
+            "total_nzd": 149.86,
+            "rate": 2.0,
+            "items": [
+                {
+                    "name": "Bileo - You Can Win (7\", RP)",
+                    "normalized_name": "bileo - you can win (7\", rp)",
+                    "condition": "Mint (M)",
+                    "price_orig": 47.16,
+                    "price_nzd": 94.32,
+                    "shipping_inc_nzd": 130.32,
+                    "total_inc_tax_ship_nzd": 149.86,
+                    "shipping_share_nzd": 36.0
+                }
+            ]
+        },
+        {
+            "seller": "funkymonkeywax",
+            "subtotal_orig": 50.0,
+            "subtotal_nzd": 114.86,
+            "shipping_nzd": 55.14,
+            "total_nzd": 195.5,
+            "rate": 2.2972,
+            "items": [
+                {
+                    "name": "Bileo - You Can Win (7\", RP)",
+                    "normalized_name": "bileo - you can win (7\", rp)",
+                    "condition": "Mint (M)",
+                    "price_orig": 50.0,
+                    "price_nzd": 114.86000000000001,
+                    "shipping_inc_nzd": 170.0,
+                    "total_inc_tax_ship_nzd": 195.49999999999997,
+                    "shipping_share_nzd": 55.14
+                }
+            ]
+        },
+        {
+            "seller": "funkypaella",
+            "subtotal_orig": 9.0,
+            "subtotal_nzd": 18.0,
+            "shipping_nzd": 35.0,
+            "total_nzd": 60.96,
+            "rate": 2.0,
+            "items": [
+                {
+                    "name": "Rocket (4) - Here Comes My Love (12\")",
+                    "normalized_name": "rocket - here comes my love (12\")",
+                    "condition": "Very Good Plus (VG+)",
+                    "price_orig": 9.0,
+                    "price_nzd": 18.0,
+                    "shipping_inc_nzd": 53.0,
+                    "total_inc_tax_ship_nzd": 60.96000000000001,
+                    "shipping_share_nzd": 35.0
+                }
+            ]
+        },
+        {
+            "seller": "GROOVE-CITY",
+            "subtotal_orig": 60.269999999999996,
+            "subtotal_nzd": 102.46,
+            "shipping_nzd": 93.5,
+            "total_nzd": 225.35,
+            "rate": 1.7000165920026546,
+            "items": [
+                {
+                    "name": "Mel & Tim - Good Guys Only Win In The Movies (LP, Album)",
+                    "normalized_name": "mel & tim - good guys only win in the movies",
+                    "condition": "Very Good (VG)",
+                    "price_orig": 19.75,
+                    "price_nzd": 33.575327692052426,
+                    "shipping_inc_nzd": 56.950327692052426,
+                    "total_inc_tax_ship_nzd": 65.49171435703212,
+                    "shipping_share_nzd": 23.375
+                },
+                {
+                    "name": "Denroy Morgan - I'll Do Anything For You (12\", Promo)",
+                    "normalized_name": "denroy morgan - i'll do anything for you",
+                    "condition": "Very Good (VG)",
+                    "price_orig": 7.77,
+                    "price_nzd": 13.209128919860627,
+                    "shipping_inc_nzd": 36.584128919860625,
+                    "total_inc_tax_ship_nzd": 42.07100149056232,
+                    "shipping_share_nzd": 23.375
+                },
+                {
+                    "name": "The Gap Band - Early In The Morning (12\", 53,)",
+                    "normalized_name": "the gap band - early in the morning (12\", 53,)",
+                    "condition": "Very Good Plus (VG+)",
+                    "price_orig": 7.77,
+                    "price_nzd": 13.209128919860627,
+                    "shipping_inc_nzd": 36.584128919860625,
+                    "total_inc_tax_ship_nzd": 42.07100149056232,
+                    "shipping_share_nzd": 23.375
+                },
+                {
+                    "name": "Devin The Dude - I Hi / Just A Man / Doobie Ashtray / Lacville 79 (12\", Promo)",
+                    "normalized_name": "devin the dude - i hi / just a man / doobie ashtray / lacville 79",
+                    "condition": "Near Mint (NM or M-)",
+                    "price_orig": 24.98,
+                    "price_nzd": 42.46641446822631,
+                    "shipping_inc_nzd": 65.8414144682263,
+                    "total_inc_tax_ship_nzd": 75.71628266184322,
+                    "shipping_share_nzd": 23.375
+                }
+            ]
+        },
+        {
+            "seller": "johnmanshiprecords",
+            "subtotal_orig": 127.07,
+            "subtotal_nzd": 291.92,
+            "shipping_nzd": 81.78,
+            "total_nzd": 429.76,
+            "rate": 2.2973164397576142,
+            "items": [
+                {
+                    "name": "Darrell Banks - Open The Door To Your Heart / Our Love (Is In The Pocket) (7\", Single, Styrene, Ter)",
+                    "normalized_name": "darrell banks - open the door to your heart / our love (is in the pocket)",
+                    "condition": "Very Good (VG)",
+                    "price_orig": 18.0,
+                    "price_nzd": 41.35169591563706,
+                    "shipping_inc_nzd": 50.438362582303725,
+                    "total_inc_tax_ship_nzd": 58.004791820633784,
+                    "shipping_share_nzd": 9.086666666666666
+                },
+                {
+                    "name": "The Ronettes - Be My Baby (7\", Single)",
+                    "normalized_name": "the ronettes - be my baby",
+                    "condition": "Very Good (VG)",
+                    "price_orig": 10.0,
+                    "price_nzd": 22.97316439757614,
+                    "shipping_inc_nzd": 32.05983106424281,
+                    "total_inc_tax_ship_nzd": 36.869234675325096,
+                    "shipping_share_nzd": 9.086666666666666
+                },
+                {
+                    "name": "Sister Sledge - Thinking Of You (12\", Single)",
+                    "normalized_name": "sister sledge - thinking of you",
+                    "condition": "Very Good Plus (VG+)",
+                    "price_orig": 22.0,
+                    "price_nzd": 50.540961674667514,
+                    "shipping_inc_nzd": 59.62762834133418,
+                    "total_inc_tax_ship_nzd": 68.57257039328813,
+                    "shipping_share_nzd": 9.086666666666666
+                },
+                {
+                    "name": "The Outsiders (4) - Time Won't Let Me / Was It Really Real (7\", Single, Scr)",
+                    "normalized_name": "the outsiders - time won't let me / was it really real",
+                    "condition": "Very Good (VG)",
+                    "price_orig": 8.0,
+                    "price_nzd": 18.378531518060914,
+                    "shipping_inc_nzd": 27.46519818472758,
+                    "total_inc_tax_ship_nzd": 31.585345388997922,
+                    "shipping_share_nzd": 9.086666666666666
+                },
+                {
+                    "name": "Crusaders* - Street Life (Special Full Length U.S. Disco Mix) (12\", Single, Ltd, Bla)",
+                    "normalized_name": "crusaders* - street life (special full length u.s. disco mix)",
+                    "condition": "Very Good Plus (VG+)",
+                    "price_orig": 8.0,
+                    "price_nzd": 18.378531518060914,
+                    "shipping_inc_nzd": 27.46519818472758,
+                    "total_inc_tax_ship_nzd": 31.585345388997922,
+                    "shipping_share_nzd": 9.086666666666666
+                },
+                {
+                    "name": "The Lost Generation - Wait A Minute / Wasting Time (7\", Single, Styrene)",
+                    "normalized_name": "the lost generation - wait a minute / wasting time",
+                    "condition": "Near Mint (NM or M-)",
+                    "price_orig": 15.0,
+                    "price_nzd": 34.45974659636421,
+                    "shipping_inc_nzd": 43.54641326303088,
+                    "total_inc_tax_ship_nzd": 50.07895789114303,
+                    "shipping_share_nzd": 9.086666666666666
+                },
+                {
+                    "name": "Ted Taylor - Somebody's Gettin' It (7\")",
+                    "normalized_name": "ted taylor - somebody's gettin' it (7\")",
+                    "condition": "Very Good Plus (VG+)",
+                    "price_orig": 8.07,
+                    "price_nzd": 18.539343668843948,
+                    "shipping_inc_nzd": 27.626010335510614,
+                    "total_inc_tax_ship_nzd": 31.770281514019374,
+                    "shipping_share_nzd": 9.086666666666666
+                },
+                {
+                    "name": "Doug Shorts - Get With The Program / Heads Or Tails (7\", Single)",
+                    "normalized_name": "doug shorts - get with the program / heads or tails",
+                    "condition": "Near Mint (NM or M-)",
+                    "price_orig": 28.0,
+                    "price_nzd": 64.3248603132132,
+                    "shipping_inc_nzd": 73.41152697987985,
+                    "total_inc_tax_ship_nzd": 84.42423825226963,
+                    "shipping_share_nzd": 9.086666666666666
+                },
+                {
+                    "name": "Howard Tate - Get It While You Can / Glad I Knew Better (7\", Single)",
+                    "normalized_name": "howard tate - get it while you can / glad i knew better",
+                    "condition": "Near Mint (NM or M-)",
+                    "price_orig": 10.0,
+                    "price_nzd": 22.97316439757614,
+                    "shipping_inc_nzd": 32.05983106424281,
+                    "total_inc_tax_ship_nzd": 36.869234675325096,
+                    "shipping_share_nzd": 9.086666666666666
+                }
+            ]
+        },
+        {
+            "seller": "kaleidosmoker",
+            "subtotal_orig": 68.8,
+            "subtotal_nzd": 137.6,
+            "shipping_nzd": 45.8,
+            "total_nzd": 210.9,
+            "rate": 2.0,
+            "items": [
+                {
+                    "name": "Ike Noble & The Uptights* - It's Bad / Best Of Luck To You (7\", Single)",
+                    "normalized_name": "ike noble & the uptights* - it's bad / best of luck to you",
+                    "condition": "Mint (M)",
+                    "price_orig": 11.0,
+                    "price_nzd": 22.0,
+                    "shipping_inc_nzd": 31.16,
+                    "total_inc_tax_ship_nzd": 35.83230098146129,
+                    "shipping_share_nzd": 9.16
+                },
+                {
+                    "name": "Thee Lakesiders - Si Me Faltaras Tu / Parachute (7\", Single, RE)",
+                    "normalized_name": "thee lakesiders - si me faltaras tu / parachute",
+                    "condition": "Mint (M)",
+                    "price_orig": 10.8,
+                    "price_nzd": 21.6,
+                    "shipping_inc_nzd": 30.76,
+                    "total_inc_tax_ship_nzd": 35.37232279171211,
+                    "shipping_share_nzd": 9.16
+                },
+                {
+                    "name": "Doug Shorts - Get With The Program / Heads Or Tails (7\", Single)",
+                    "normalized_name": "doug shorts - get with the program / heads or tails",
+                    "condition": "Mint (M)",
+                    "price_orig": 28.0,
+                    "price_nzd": 56.0,
+                    "shipping_inc_nzd": 65.16,
+                    "total_inc_tax_ship_nzd": 74.93044711014177,
+                    "shipping_share_nzd": 9.16
+                },
+                {
+                    "name": "Bobby Oroza - Your Love Is Too Cold (7\")",
+                    "normalized_name": "bobby oroza - your love is too cold (7\")",
+                    "condition": "Mint (M)",
+                    "price_orig": 11.0,
+                    "price_nzd": 22.0,
+                    "shipping_inc_nzd": 31.16,
+                    "total_inc_tax_ship_nzd": 35.83230098146129,
+                    "shipping_share_nzd": 9.16
+                },
+                {
+                    "name": "Otis Brown And The Delights (6) - I\u2019ve Got Another / Southside Chicago (7\", Single, RE)",
+                    "normalized_name": "otis brown and the delights - i\u2019ve got another / southside chicago",
+                    "condition": "Mint (M)",
+                    "price_orig": 8.0,
+                    "price_nzd": 16.0,
+                    "shipping_inc_nzd": 25.16,
+                    "total_inc_tax_ship_nzd": 28.932628135223556,
+                    "shipping_share_nzd": 9.16
+                }
+            ]
+        },
+        {
+            "seller": "lou_spins",
+            "subtotal_orig": 20.0,
+            "subtotal_nzd": 40.0,
+            "shipping_nzd": 46.9,
+            "total_nzd": 99.94,
+            "rate": 2.0,
+            "items": [
+                {
+                    "name": "Rocket (4) - Here Comes My Love (7\", Single)",
+                    "normalized_name": "rocket - here comes my love",
+                    "condition": "Very Good (VG)",
+                    "price_orig": 20.0,
+                    "price_nzd": 40.0,
+                    "shipping_inc_nzd": 86.9,
+                    "total_inc_tax_ship_nzd": 99.94,
+                    "shipping_share_nzd": 46.9
+                }
+            ]
+        },
+        {
+            "seller": "LuminoRecords",
+            "subtotal_orig": 197.3,
+            "subtotal_nzd": 430.01,
+            "shipping_nzd": 82.82,
+            "total_nzd": 589.77,
+            "rate": 2.1794728839330966,
+            "items": [
+                {
+                    "name": "Karriem - I Love You (12\", RE)",
+                    "normalized_name": "karriem - i love you",
+                    "condition": "Mint (M)",
+                    "price_orig": 40.9,
+                    "price_nzd": 89.14044095286364,
+                    "shipping_inc_nzd": 100.97186952429222,
+                    "total_inc_tax_ship_nzd": 116.1207017712338,
+                    "shipping_share_nzd": 11.831428571428571
+                },
+                {
+                    "name": "Nik Weston Presents Estiban* - Lost Funk & Disco Gems Volume Five - Canadian Disco Boogie Edition: Official Edits (12\", Ltd, RM, 180)",
+                    "normalized_name": "nik weston presents estiban* - lost funk & disco gems volume five - canadian disco boogie edition: official edits",
+                    "condition": "Near Mint (NM or M-)",
+                    "price_orig": 20.9,
+                    "price_nzd": 45.55098327420171,
+                    "shipping_inc_nzd": 57.38241184563029,
+                    "total_inc_tax_ship_nzd": 65.99150797378738,
+                    "shipping_share_nzd": 11.831428571428571
+                },
+                {
+                    "name": "Cliff Nobles / Russell Evans & The Nite Hawks - My Love Is Getting Stronger / The Bold (7\", Single, Ltd, RE, RM)",
+                    "normalized_name": "cliff nobles / russell evans & the nite hawks - my love is getting stronger / the bold",
+                    "condition": "Near Mint (NM or M-)",
+                    "price_orig": 14.9,
+                    "price_nzd": 32.47414597060314,
+                    "shipping_inc_nzd": 44.30557454203171,
+                    "total_inc_tax_ship_nzd": 50.952749834553444,
+                    "shipping_share_nzd": 11.831428571428571
+                },
+                {
+                    "name": "Symbol 8 - I Thought You Wanted To Dance (12\", Maxi)",
+                    "normalized_name": "symbol 8 - i thought you wanted to dance (12\", maxi)",
+                    "condition": "Mint (M)",
+                    "price_orig": 38.9,
+                    "price_nzd": 84.78149518499745,
+                    "shipping_inc_nzd": 96.61292375642603,
+                    "total_inc_tax_ship_nzd": 111.10778239148917,
+                    "shipping_share_nzd": 11.831428571428571
+                },
+                {
+                    "name": "Lew Kirton - Something Special / Love, I Don't Want Your Love (7\")",
+                    "normalized_name": "lew kirton - something special / love, i don't want your love (7\")",
+                    "condition": "Near Mint (NM or M-)",
+                    "price_orig": 11.9,
+                    "price_nzd": 25.93572731880385,
+                    "shipping_inc_nzd": 37.76715589023242,
+                    "total_inc_tax_ship_nzd": 43.433370764936484,
+                    "shipping_share_nzd": 11.831428571428571
+                },
+                {
+                    "name": "Hudson People - Trip To Your Mind (DJ Friction Reworks) (7\", Single, Ltd)",
+                    "normalized_name": "hudson people - trip to your mind (dj friction reworks)",
+                    "condition": "Mint (M)",
+                    "price_orig": 18.9,
+                    "price_nzd": 41.192037506335524,
+                    "shipping_inc_nzd": 53.0234660777641,
+                    "total_inc_tax_ship_nzd": 60.97858859404274,
+                    "shipping_share_nzd": 11.831428571428571
+                },
+                {
+                    "name": "Dee Edwards - Why Can't There Be Love / I Can Deal With That (7\", Single, Ltd)",
+                    "normalized_name": "dee edwards - why can't there be love / i can deal with that",
+                    "condition": "Near Mint (NM or M-)",
+                    "price_orig": 50.9,
+                    "price_nzd": 110.93516979219461,
+                    "shipping_inc_nzd": 122.76659836362319,
+                    "total_inc_tax_ship_nzd": 141.185298669957,
+                    "shipping_share_nzd": 11.831428571428571
+                }
+            ]
+        },
+        {
+            "seller": "pakis",
+            "subtotal_orig": 76.0,
+            "subtotal_nzd": 152.0,
+            "shipping_nzd": 54.0,
+            "total_nzd": 236.9,
+            "rate": 2.0,
+            "items": [
+                {
+                    "name": "Sleepy's Theme - The Vinyl Room (2xLP, Dlx, Ltd, RM, S/Edition, 180)",
+                    "normalized_name": "sleepy's theme - the vinyl room",
+                    "condition": "Mint (M)",
+                    "price_orig": 35.0,
+                    "price_nzd": 70.0,
+                    "shipping_inc_nzd": 80.8,
+                    "total_inc_tax_ship_nzd": 92.92,
+                    "shipping_share_nzd": 10.8
+                },
+                {
+                    "name": "Ike Noble & The Uptights* - It's Bad / Best Of Luck To You (7\", Single)",
+                    "normalized_name": "ike noble & the uptights* - it's bad / best of luck to you",
+                    "condition": "Mint (M)",
+                    "price_orig": 11.0,
+                    "price_nzd": 22.0,
+                    "shipping_inc_nzd": 32.8,
+                    "total_inc_tax_ship_nzd": 37.72,
+                    "shipping_share_nzd": 10.8
+                },
+                {
+                    "name": "Bobby Oroza - Your Love Is Too Cold (7\")",
+                    "normalized_name": "bobby oroza - your love is too cold (7\")",
+                    "condition": "Mint (M)",
+                    "price_orig": 11.0,
+                    "price_nzd": 22.0,
+                    "shipping_inc_nzd": 32.8,
+                    "total_inc_tax_ship_nzd": 37.72,
+                    "shipping_share_nzd": 10.8
+                },
+                {
+                    "name": "Thee Lakesiders - Si Me Faltaras Tu / Parachute (7\", Single, RE)",
+                    "normalized_name": "thee lakesiders - si me faltaras tu / parachute",
+                    "condition": "Mint (M)",
+                    "price_orig": 11.0,
+                    "price_nzd": 22.0,
+                    "shipping_inc_nzd": 32.8,
+                    "total_inc_tax_ship_nzd": 37.72,
+                    "shipping_share_nzd": 10.8
+                },
+                {
+                    "name": "Otis Brown And The Delights (6) - I\u2019ve Got Another / Southside Chicago (7\", Single, RE)",
+                    "normalized_name": "otis brown and the delights - i\u2019ve got another / southside chicago",
+                    "condition": "Mint (M)",
+                    "price_orig": 8.0,
+                    "price_nzd": 16.0,
+                    "shipping_inc_nzd": 26.8,
+                    "total_inc_tax_ship_nzd": 30.820000000000004,
+                    "shipping_share_nzd": 10.8
+                }
+            ]
+        },
+        {
+            "seller": "pussclod",
+            "subtotal_orig": 42.98,
+            "subtotal_nzd": 98.74,
+            "shipping_nzd": 60.19,
+            "total_nzd": 182.77,
+            "rate": 2.2973476035365286,
+            "items": [
+                {
+                    "name": "The Mighty Zaf, Linkwood - Get Another Love / He Made You Mine (12\", EP)",
+                    "normalized_name": "the mighty zaf, linkwood - get another love / he made you mine (12\", ep)",
+                    "condition": "Mint (M)",
+                    "price_orig": 24.99,
+                    "price_nzd": 57.41071661237785,
+                    "shipping_inc_nzd": 87.50571661237785,
+                    "total_inc_tax_ship_nzd": 100.63184940064367,
+                    "shipping_share_nzd": 30.095
+                },
+                {
+                    "name": "Rahaan - The Ones (2xLP, Album)",
+                    "normalized_name": "rahaan - the ones",
+                    "condition": "Mint (M)",
+                    "price_orig": 17.99,
+                    "price_nzd": 41.32928338762215,
+                    "shipping_inc_nzd": 71.42428338762215,
+                    "total_inc_tax_ship_nzd": 82.13815059935632,
+                    "shipping_share_nzd": 30.095
+                }
+            ]
+        },
+        {
+            "seller": "recordsbymail",
+            "subtotal_orig": 52.0,
+            "subtotal_nzd": 88.4,
+            "shipping_nzd": 34.0,
+            "total_nzd": 140.76,
+            "rate": 1.7000000000000002,
+            "items": [
+                {
+                    "name": "Ted Taylor - Somebody's Gettin' It (7\")",
+                    "normalized_name": "ted taylor - somebody's gettin' it (7\")",
+                    "condition": "Near Mint (NM or M-)",
+                    "price_orig": 6.0,
+                    "price_nzd": 10.200000000000001,
+                    "shipping_inc_nzd": 21.533333333333335,
+                    "total_inc_tax_ship_nzd": 24.763333333333332,
+                    "shipping_share_nzd": 11.333333333333334
+                },
+                {
+                    "name": "Rocket (4) - Here Comes My Love (7\")",
+                    "normalized_name": "rocket - here comes my love (7\")",
+                    "condition": "Near Mint (NM or M-)",
+                    "price_orig": 40.0,
+                    "price_nzd": 68.0,
+                    "shipping_inc_nzd": 79.33333333333333,
+                    "total_inc_tax_ship_nzd": 91.23333333333332,
+                    "shipping_share_nzd": 11.333333333333334
+                },
+                {
+                    "name": "Lucifer (9) - Old Mother Nature (7\")",
+                    "normalized_name": "lucifer - old mother nature (7\")",
+                    "condition": "Near Mint (NM or M-)",
+                    "price_orig": 6.0,
+                    "price_nzd": 10.200000000000001,
+                    "shipping_inc_nzd": 21.533333333333335,
+                    "total_inc_tax_ship_nzd": 24.763333333333332,
+                    "shipping_share_nzd": 11.333333333333334
+                }
+            ]
+        },
+        {
+            "seller": "recordshopshibuya",
+            "subtotal_orig": 20430.0,
+            "subtotal_nzd": 218.93,
+            "shipping_nzd": 84.66,
+            "total_nzd": 349.12,
+            "rate": 0.010716103768967205,
+            "items": [
+                {
+                    "name": "Lord Sear / Stak Chedda - Alcoholic Vibes / My Hindu Love (12\")",
+                    "normalized_name": "lord sear / stak chedda - alcoholic vibes / my hindu love (12\")",
+                    "condition": "Very Good Plus (VG+)",
+                    "price_orig": 1440.0,
+                    "price_nzd": 15.431189427312775,
+                    "shipping_inc_nzd": 27.52547514159849,
+                    "total_inc_tax_ship_nzd": 31.653525746680934,
+                    "shipping_share_nzd": 12.094285714285714
+                },
+                {
+                    "name": "Mel & Tim - Good Guys Only Win In The Movies (LP, Album, Mon)",
+                    "normalized_name": "mel & tim - good guys only win in the movies",
+                    "condition": "Very Good Plus (VG+)",
+                    "price_orig": 5500.0,
+                    "price_nzd": 58.93857072931963,
+                    "shipping_inc_nzd": 71.03285644360534,
+                    "total_inc_tax_ship_nzd": 81.68579611183337,
+                    "shipping_share_nzd": 12.094285714285714
+                },
+                {
+                    "name": "Sister Sledge - We Are Family (LP, Album, PR )",
+                    "normalized_name": "sister sledge - we are family",
+                    "condition": "Very Good Plus (VG+)",
+                    "price_orig": 3410.0,
+                    "price_nzd": 36.54191385217817,
+                    "shipping_inc_nzd": 48.63619956646389,
+                    "total_inc_tax_ship_nzd": 55.930267771151456,
+                    "shipping_share_nzd": 12.094285714285714
+                },
+                {
+                    "name": "Chico & Coolwadda Featuring Nate Dogg - High Come Down (12\", Single, Promo)",
+                    "normalized_name": "chico & coolwadda featuring nate dogg - high come down",
+                    "condition": "Very Good Plus (VG+)",
+                    "price_orig": 960.0,
+                    "price_nzd": 10.287459618208517,
+                    "shipping_inc_nzd": 22.381745332494233,
+                    "total_inc_tax_ship_nzd": 25.738380481835325,
+                    "shipping_share_nzd": 12.094285714285714
+                },
+                {
+                    "name": "Was A Bee - This Is What You Are / On A Clear Day (12\", Single)",
+                    "normalized_name": "was a bee - this is what you are / on a clear day",
+                    "condition": "Very Good (VG)",
+                    "price_orig": 1920.0,
+                    "price_nzd": 20.574919236417035,
+                    "shipping_inc_nzd": 32.66920495070275,
+                    "total_inc_tax_ship_nzd": 37.56867101152654,
+                    "shipping_share_nzd": 12.094285714285714
+                },
+                {
+                    "name": "Theo Parrish - You Forgot / Dirt Rhodes (12\")",
+                    "normalized_name": "theo parrish - you forgot / dirt rhodes (12\")",
+                    "condition": "Very Good (VG)",
+                    "price_orig": 1200.0,
+                    "price_nzd": 12.859324522760646,
+                    "shipping_inc_nzd": 24.953610237046362,
+                    "total_inc_tax_ship_nzd": 28.695953114258128,
+                    "shipping_share_nzd": 12.094285714285714
+                },
+                {
+                    "name": "Theo Parrish - First Floor (Part 2) (2x12\")",
+                    "normalized_name": "theo parrish - first floor (part 2) (2x12\")",
+                    "condition": "Very Good (VG)",
+                    "price_orig": 6000.0,
+                    "price_nzd": 64.29662261380324,
+                    "shipping_inc_nzd": 76.39090832808895,
+                    "total_inc_tax_ship_nzd": 87.84740576271423,
+                    "shipping_share_nzd": 12.094285714285714
+                }
+            ]
+        },
+        {
+            "seller": "srhb86",
+            "subtotal_orig": 35.0,
+            "subtotal_nzd": 80.41,
+            "shipping_nzd": 32.16,
+            "total_nzd": 129.45,
+            "rate": 2.297428571428571,
+            "items": [
+                {
+                    "name": "Bileo - You Can Win (7\", RP, Pur)",
+                    "normalized_name": "bileo - you can win",
+                    "condition": "Very Good Plus (VG+)",
+                    "price_orig": 35.0,
+                    "price_nzd": 80.41,
+                    "shipping_inc_nzd": 112.57,
+                    "total_inc_tax_ship_nzd": 129.45,
+                    "shipping_share_nzd": 32.16
+                }
+            ]
+        },
+        {
+            "seller": "theslutbunny",
+            "subtotal_orig": 44.849999999999994,
+            "subtotal_nzd": 76.24,
+            "shipping_nzd": 34.0,
+            "total_nzd": 126.79,
+            "rate": 1.6998885172798217,
+            "items": [
+                {
+                    "name": "Ike Noble & The Uptights* - It's Bad / Best Of Luck To You (7\", Single)",
+                    "normalized_name": "ike noble & the uptights* - it's bad / best of luck to you",
+                    "condition": "Mint (M)",
+                    "price_orig": 14.95,
+                    "price_nzd": 25.413333333333334,
+                    "shipping_inc_nzd": 36.74666666666667,
+                    "total_inc_tax_ship_nzd": 42.26333333333334,
+                    "shipping_share_nzd": 11.333333333333334
+                },
+                {
+                    "name": "Bobby Oroza - Your Love Is Too Cold (7\")",
+                    "normalized_name": "bobby oroza - your love is too cold (7\")",
+                    "condition": "Mint (M)",
+                    "price_orig": 9.95,
+                    "price_nzd": 16.913890746934225,
+                    "shipping_inc_nzd": 28.247224080267557,
+                    "total_inc_tax_ship_nzd": 32.487894966773624,
+                    "shipping_share_nzd": 11.333333333333334
+                },
+                {
+                    "name": "Hudson People - Trip To Your Mind (DJ Friction Reworks) (7\", Single, Ltd)",
+                    "normalized_name": "hudson people - trip to your mind (dj friction reworks)",
+                    "condition": "Mint (M)",
+                    "price_orig": 19.95,
+                    "price_nzd": 33.91277591973244,
+                    "shipping_inc_nzd": 45.246109253065775,
+                    "total_inc_tax_ship_nzd": 52.038771699893054,
+                    "shipping_share_nzd": 11.333333333333334
+                }
+            ]
+        },
+        {
+            "seller": "wbmx4life",
+            "subtotal_orig": 9.99,
+            "subtotal_nzd": 16.98,
+            "shipping_nzd": 68.0,
+            "total_nzd": 97.73,
+            "rate": 1.6996996996996998,
+            "items": [
+                {
+                    "name": "Rocket (4) - Here Comes My Love (12\")",
+                    "normalized_name": "rocket - here comes my love (12\")",
+                    "condition": "Near Mint (NM or M-)",
+                    "price_orig": 9.99,
+                    "price_nzd": 16.98,
+                    "shipping_inc_nzd": 84.98,
+                    "total_inc_tax_ship_nzd": 97.72999999999999,
+                    "shipping_share_nzd": 68.0
+                }
+            ]
+        }
+    ],
+    "recommendations": {
+        "rocket - here comes my love (12\")": {
+            "best": {
+                "seller": "climate_ctrl",
+                "name": "Rocket (4) - Here Comes My Love (12\")",
+                "condition": "Very Good Plus (VG+)",
+                "price_nzd": 16.061999999999998,
+                "shipping_inc_nzd": 51.762,
+                "total_inc_tax_ship_nzd": 59.528672710604056
+            },
+            "close_seconds": [
+                {
+                    "seller": "funkypaella",
+                    "name": "Rocket (4) - Here Comes My Love (12\")",
+                    "condition": "Very Good Plus (VG+)",
+                    "price_nzd": 18.0,
+                    "shipping_inc_nzd": 53.0,
+                    "total_inc_tax_ship_nzd": 60.96000000000001
+                },
+                {
+                    "seller": "DJ_Martin_M",
+                    "name": "Rocket (4) - Here Comes My Love (12\")",
+                    "condition": "Very Good Plus (VG+)",
+                    "price_nzd": 27.8,
+                    "shipping_inc_nzd": 53.6,
+                    "total_inc_tax_ship_nzd": 61.66
+                }
+            ],
+            "all": [
+                {
+                    "seller": "climate_ctrl",
+                    "name": "Rocket (4) - Here Comes My Love (12\")",
+                    "condition": "Very Good Plus (VG+)",
+                    "price_nzd": 16.061999999999998,
+                    "shipping_inc_nzd": 51.762,
+                    "total_inc_tax_ship_nzd": 59.528672710604056
+                },
+                {
+                    "seller": "funkypaella",
+                    "name": "Rocket (4) - Here Comes My Love (12\")",
+                    "condition": "Very Good Plus (VG+)",
+                    "price_nzd": 18.0,
+                    "shipping_inc_nzd": 53.0,
+                    "total_inc_tax_ship_nzd": 60.96000000000001
+                },
+                {
+                    "seller": "DJ_Martin_M",
+                    "name": "Rocket (4) - Here Comes My Love (12\")",
+                    "condition": "Very Good Plus (VG+)",
+                    "price_nzd": 27.8,
+                    "shipping_inc_nzd": 53.6,
+                    "total_inc_tax_ship_nzd": 61.66
+                },
+                {
+                    "seller": "wbmx4life",
+                    "name": "Rocket (4) - Here Comes My Love (12\")",
+                    "condition": "Near Mint (NM or M-)",
+                    "price_nzd": 16.98,
+                    "shipping_inc_nzd": 84.98,
+                    "total_inc_tax_ship_nzd": 97.72999999999999
+                }
+            ]
+        },
+        "sister sledge - we are family": {
+            "best": {
+                "seller": "climate_ctrl",
+                "name": "Sister Sledge - We Are Family (LP, Album, RI )",
+                "condition": "Very Good (VG)",
+                "price_nzd": 10.708,
+                "shipping_inc_nzd": 46.408,
+                "total_inc_tax_ship_nzd": 53.37132728939595
+            },
+            "close_seconds": [
+                {
+                    "seller": "recordshopshibuya",
+                    "name": "Sister Sledge - We Are Family (LP, Album, PR )",
+                    "condition": "Very Good Plus (VG+)",
+                    "price_nzd": 36.54191385217817,
+                    "shipping_inc_nzd": 48.63619956646389,
+                    "total_inc_tax_ship_nzd": 55.930267771151456
+                }
+            ],
+            "all": [
+                {
+                    "seller": "climate_ctrl",
+                    "name": "Sister Sledge - We Are Family (LP, Album, RI )",
+                    "condition": "Very Good (VG)",
+                    "price_nzd": 10.708,
+                    "shipping_inc_nzd": 46.408,
+                    "total_inc_tax_ship_nzd": 53.37132728939595
+                },
+                {
+                    "seller": "recordshopshibuya",
+                    "name": "Sister Sledge - We Are Family (LP, Album, PR )",
+                    "condition": "Very Good Plus (VG+)",
+                    "price_nzd": 36.54191385217817,
+                    "shipping_inc_nzd": 48.63619956646389,
+                    "total_inc_tax_ship_nzd": 55.930267771151456
+                }
+            ]
+        },
+        "ike noble & the uptights* - it's bad / best of luck to you": {
+            "best": {
+                "seller": "kaleidosmoker",
+                "name": "Ike Noble & The Uptights* - It's Bad / Best Of Luck To You (7\", Single)",
+                "condition": "Mint (M)",
+                "price_nzd": 22.0,
+                "shipping_inc_nzd": 31.16,
+                "total_inc_tax_ship_nzd": 35.83230098146129
+            },
+            "close_seconds": [
+                {
+                    "seller": "pakis",
+                    "name": "Ike Noble & The Uptights* - It's Bad / Best Of Luck To You (7\", Single)",
+                    "condition": "Mint (M)",
+                    "price_nzd": 22.0,
+                    "shipping_inc_nzd": 32.8,
+                    "total_inc_tax_ship_nzd": 37.72
+                }
+            ],
+            "all": [
+                {
+                    "seller": "kaleidosmoker",
+                    "name": "Ike Noble & The Uptights* - It's Bad / Best Of Luck To You (7\", Single)",
+                    "condition": "Mint (M)",
+                    "price_nzd": 22.0,
+                    "shipping_inc_nzd": 31.16,
+                    "total_inc_tax_ship_nzd": 35.83230098146129
+                },
+                {
+                    "seller": "pakis",
+                    "name": "Ike Noble & The Uptights* - It's Bad / Best Of Luck To You (7\", Single)",
+                    "condition": "Mint (M)",
+                    "price_nzd": 22.0,
+                    "shipping_inc_nzd": 32.8,
+                    "total_inc_tax_ship_nzd": 37.72
+                },
+                {
+                    "seller": "theslutbunny",
+                    "name": "Ike Noble & The Uptights* - It's Bad / Best Of Luck To You (7\", Single)",
+                    "condition": "Mint (M)",
+                    "price_nzd": 25.413333333333334,
+                    "shipping_inc_nzd": 36.74666666666667,
+                    "total_inc_tax_ship_nzd": 42.26333333333334
+                },
+                {
+                    "seller": "decks.de",
+                    "name": "Ike Noble & The Uptights* - It's Bad / Best Of Luck To You (7\", Single)",
+                    "condition": "Mint (M)",
+                    "price_nzd": 37.78000000000001,
+                    "shipping_inc_nzd": 65.12,
+                    "total_inc_tax_ship_nzd": 74.88695428754953
+                }
+            ]
+        },
+        "doc severinsen - i wanna be with you (dj harvey's pacific beach edit)": {
+            "best": {
+                "seller": "decks.de",
+                "name": "Doc Severinsen - I Wanna Be With You (DJ Harvey's Pacific Beach Edit) (12\", RE, RM)",
+                "condition": "Mint (M)",
+                "price_nzd": 33.260000000000005,
+                "shipping_inc_nzd": 60.60000000000001,
+                "total_inc_tax_ship_nzd": 69.68902687078473
+            },
+            "close_seconds": [],
+            "all": [
+                {
+                    "seller": "decks.de",
+                    "name": "Doc Severinsen - I Wanna Be With You (DJ Harvey's Pacific Beach Edit) (12\", RE, RM)",
+                    "condition": "Mint (M)",
+                    "price_nzd": 33.260000000000005,
+                    "shipping_inc_nzd": 60.60000000000001,
+                    "total_inc_tax_ship_nzd": 69.68902687078473
+                }
+            ]
+        },
+        "hudson people - trip to your mind (dj friction reworks)": {
+            "best": {
+                "seller": "theslutbunny",
+                "name": "Hudson People - Trip To Your Mind (DJ Friction Reworks) (7\", Single, Ltd)",
+                "condition": "Mint (M)",
+                "price_nzd": 33.91277591973244,
+                "shipping_inc_nzd": 45.246109253065775,
+                "total_inc_tax_ship_nzd": 52.038771699893054
+            },
+            "close_seconds": [],
+            "all": [
+                {
+                    "seller": "theslutbunny",
+                    "name": "Hudson People - Trip To Your Mind (DJ Friction Reworks) (7\", Single, Ltd)",
+                    "condition": "Mint (M)",
+                    "price_nzd": 33.91277591973244,
+                    "shipping_inc_nzd": 45.246109253065775,
+                    "total_inc_tax_ship_nzd": 52.038771699893054
+                },
+                {
+                    "seller": "LuminoRecords",
+                    "name": "Hudson People - Trip To Your Mind (DJ Friction Reworks) (7\", Single, Ltd)",
+                    "condition": "Mint (M)",
+                    "price_nzd": 41.192037506335524,
+                    "shipping_inc_nzd": 53.0234660777641,
+                    "total_inc_tax_ship_nzd": 60.97858859404274
+                },
+                {
+                    "seller": "decks.de",
+                    "name": "Hudson People - Trip To Your Mind (DJ Friction Reworks) (7\", Single, Ltd)",
+                    "condition": "Mint (M)",
+                    "price_nzd": 33.760000000000005,
+                    "shipping_inc_nzd": 61.10000000000001,
+                    "total_inc_tax_ship_nzd": 70.26401884166579
+                }
+            ]
+        },
+        "rocket - rocket": {
+            "best": {
+                "seller": "Emper0rTomato",
+                "name": "Rocket (4) - Rocket (LP, Album)",
+                "condition": "Very Good Plus (VG+)",
+                "price_nzd": 221.0,
+                "shipping_inc_nzd": 255.0,
+                "total_inc_tax_ship_nzd": 293.25
+            },
+            "close_seconds": [],
+            "all": [
+                {
+                    "seller": "Emper0rTomato",
+                    "name": "Rocket (4) - Rocket (LP, Album)",
+                    "condition": "Very Good Plus (VG+)",
+                    "price_nzd": 221.0,
+                    "shipping_inc_nzd": 255.0,
+                    "total_inc_tax_ship_nzd": 293.25
+                }
+            ]
+        },
+        "bileo - you can win (7\", rp)": {
+            "best": {
+                "seller": "For_The_Love_of_Haus",
+                "name": "Bileo - You Can Win (7\", RP)",
+                "condition": "Mint (M)",
+                "price_nzd": 94.32,
+                "shipping_inc_nzd": 130.32,
+                "total_inc_tax_ship_nzd": 149.86
+            },
+            "close_seconds": [],
+            "all": [
+                {
+                    "seller": "For_The_Love_of_Haus",
+                    "name": "Bileo - You Can Win (7\", RP)",
+                    "condition": "Mint (M)",
+                    "price_nzd": 94.32,
+                    "shipping_inc_nzd": 130.32,
+                    "total_inc_tax_ship_nzd": 149.86
+                },
+                {
+                    "seller": "funkymonkeywax",
+                    "name": "Bileo - You Can Win (7\", RP)",
+                    "condition": "Mint (M)",
+                    "price_nzd": 114.86000000000001,
+                    "shipping_inc_nzd": 170.0,
+                    "total_inc_tax_ship_nzd": 195.49999999999997
+                }
+            ]
+        },
+        "mel & tim - good guys only win in the movies": {
+            "best": {
+                "seller": "GROOVE-CITY",
+                "name": "Mel & Tim - Good Guys Only Win In The Movies (LP, Album)",
+                "condition": "Very Good (VG)",
+                "price_nzd": 33.575327692052426,
+                "shipping_inc_nzd": 56.950327692052426,
+                "total_inc_tax_ship_nzd": 65.49171435703212
+            },
+            "close_seconds": [],
+            "all": [
+                {
+                    "seller": "GROOVE-CITY",
+                    "name": "Mel & Tim - Good Guys Only Win In The Movies (LP, Album)",
+                    "condition": "Very Good (VG)",
+                    "price_nzd": 33.575327692052426,
+                    "shipping_inc_nzd": 56.950327692052426,
+                    "total_inc_tax_ship_nzd": 65.49171435703212
+                },
+                {
+                    "seller": "recordshopshibuya",
+                    "name": "Mel & Tim - Good Guys Only Win In The Movies (LP, Album, Mon)",
+                    "condition": "Very Good Plus (VG+)",
+                    "price_nzd": 58.93857072931963,
+                    "shipping_inc_nzd": 71.03285644360534,
+                    "total_inc_tax_ship_nzd": 81.68579611183337
+                }
+            ]
+        },
+        "denroy morgan - i'll do anything for you": {
+            "best": {
+                "seller": "GROOVE-CITY",
+                "name": "Denroy Morgan - I'll Do Anything For You (12\", Promo)",
+                "condition": "Very Good (VG)",
+                "price_nzd": 13.209128919860627,
+                "shipping_inc_nzd": 36.584128919860625,
+                "total_inc_tax_ship_nzd": 42.07100149056232
+            },
+            "close_seconds": [],
+            "all": [
+                {
+                    "seller": "GROOVE-CITY",
+                    "name": "Denroy Morgan - I'll Do Anything For You (12\", Promo)",
+                    "condition": "Very Good (VG)",
+                    "price_nzd": 13.209128919860627,
+                    "shipping_inc_nzd": 36.584128919860625,
+                    "total_inc_tax_ship_nzd": 42.07100149056232
+                }
+            ]
+        },
+        "the gap band - early in the morning (12\", 53,)": {
+            "best": {
+                "seller": "GROOVE-CITY",
+                "name": "The Gap Band - Early In The Morning (12\", 53,)",
+                "condition": "Very Good Plus (VG+)",
+                "price_nzd": 13.209128919860627,
+                "shipping_inc_nzd": 36.584128919860625,
+                "total_inc_tax_ship_nzd": 42.07100149056232
+            },
+            "close_seconds": [],
+            "all": [
+                {
+                    "seller": "GROOVE-CITY",
+                    "name": "The Gap Band - Early In The Morning (12\", 53,)",
+                    "condition": "Very Good Plus (VG+)",
+                    "price_nzd": 13.209128919860627,
+                    "shipping_inc_nzd": 36.584128919860625,
+                    "total_inc_tax_ship_nzd": 42.07100149056232
+                }
+            ]
+        },
+        "devin the dude - i hi / just a man / doobie ashtray / lacville 79": {
+            "best": {
+                "seller": "GROOVE-CITY",
+                "name": "Devin The Dude - I Hi / Just A Man / Doobie Ashtray / Lacville 79 (12\", Promo)",
+                "condition": "Near Mint (NM or M-)",
+                "price_nzd": 42.46641446822631,
+                "shipping_inc_nzd": 65.8414144682263,
+                "total_inc_tax_ship_nzd": 75.71628266184322
+            },
+            "close_seconds": [],
+            "all": [
+                {
+                    "seller": "GROOVE-CITY",
+                    "name": "Devin The Dude - I Hi / Just A Man / Doobie Ashtray / Lacville 79 (12\", Promo)",
+                    "condition": "Near Mint (NM or M-)",
+                    "price_nzd": 42.46641446822631,
+                    "shipping_inc_nzd": 65.8414144682263,
+                    "total_inc_tax_ship_nzd": 75.71628266184322
+                }
+            ]
+        },
+        "darrell banks - open the door to your heart / our love (is in the pocket)": {
+            "best": {
+                "seller": "johnmanshiprecords",
+                "name": "Darrell Banks - Open The Door To Your Heart / Our Love (Is In The Pocket) (7\", Single, Styrene, Ter)",
+                "condition": "Very Good (VG)",
+                "price_nzd": 41.35169591563706,
+                "shipping_inc_nzd": 50.438362582303725,
+                "total_inc_tax_ship_nzd": 58.004791820633784
+            },
+            "close_seconds": [],
+            "all": [
+                {
+                    "seller": "johnmanshiprecords",
+                    "name": "Darrell Banks - Open The Door To Your Heart / Our Love (Is In The Pocket) (7\", Single, Styrene, Ter)",
+                    "condition": "Very Good (VG)",
+                    "price_nzd": 41.35169591563706,
+                    "shipping_inc_nzd": 50.438362582303725,
+                    "total_inc_tax_ship_nzd": 58.004791820633784
+                }
+            ]
+        },
+        "the ronettes - be my baby": {
+            "best": {
+                "seller": "johnmanshiprecords",
+                "name": "The Ronettes - Be My Baby (7\", Single)",
+                "condition": "Very Good (VG)",
+                "price_nzd": 22.97316439757614,
+                "shipping_inc_nzd": 32.05983106424281,
+                "total_inc_tax_ship_nzd": 36.869234675325096
+            },
+            "close_seconds": [],
+            "all": [
+                {
+                    "seller": "johnmanshiprecords",
+                    "name": "The Ronettes - Be My Baby (7\", Single)",
+                    "condition": "Very Good (VG)",
+                    "price_nzd": 22.97316439757614,
+                    "shipping_inc_nzd": 32.05983106424281,
+                    "total_inc_tax_ship_nzd": 36.869234675325096
+                }
+            ]
+        },
+        "sister sledge - thinking of you": {
+            "best": {
+                "seller": "johnmanshiprecords",
+                "name": "Sister Sledge - Thinking Of You (12\", Single)",
+                "condition": "Very Good Plus (VG+)",
+                "price_nzd": 50.540961674667514,
+                "shipping_inc_nzd": 59.62762834133418,
+                "total_inc_tax_ship_nzd": 68.57257039328813
+            },
+            "close_seconds": [],
+            "all": [
+                {
+                    "seller": "johnmanshiprecords",
+                    "name": "Sister Sledge - Thinking Of You (12\", Single)",
+                    "condition": "Very Good Plus (VG+)",
+                    "price_nzd": 50.540961674667514,
+                    "shipping_inc_nzd": 59.62762834133418,
+                    "total_inc_tax_ship_nzd": 68.57257039328813
+                }
+            ]
+        },
+        "the outsiders - time won't let me / was it really real": {
+            "best": {
+                "seller": "johnmanshiprecords",
+                "name": "The Outsiders (4) - Time Won't Let Me / Was It Really Real (7\", Single, Scr)",
+                "condition": "Very Good (VG)",
+                "price_nzd": 18.378531518060914,
+                "shipping_inc_nzd": 27.46519818472758,
+                "total_inc_tax_ship_nzd": 31.585345388997922
+            },
+            "close_seconds": [],
+            "all": [
+                {
+                    "seller": "johnmanshiprecords",
+                    "name": "The Outsiders (4) - Time Won't Let Me / Was It Really Real (7\", Single, Scr)",
+                    "condition": "Very Good (VG)",
+                    "price_nzd": 18.378531518060914,
+                    "shipping_inc_nzd": 27.46519818472758,
+                    "total_inc_tax_ship_nzd": 31.585345388997922
+                }
+            ]
+        },
+        "crusaders* - street life (special full length u.s. disco mix)": {
+            "best": {
+                "seller": "johnmanshiprecords",
+                "name": "Crusaders* - Street Life (Special Full Length U.S. Disco Mix) (12\", Single, Ltd, Bla)",
+                "condition": "Very Good Plus (VG+)",
+                "price_nzd": 18.378531518060914,
+                "shipping_inc_nzd": 27.46519818472758,
+                "total_inc_tax_ship_nzd": 31.585345388997922
+            },
+            "close_seconds": [],
+            "all": [
+                {
+                    "seller": "johnmanshiprecords",
+                    "name": "Crusaders* - Street Life (Special Full Length U.S. Disco Mix) (12\", Single, Ltd, Bla)",
+                    "condition": "Very Good Plus (VG+)",
+                    "price_nzd": 18.378531518060914,
+                    "shipping_inc_nzd": 27.46519818472758,
+                    "total_inc_tax_ship_nzd": 31.585345388997922
+                }
+            ]
+        },
+        "the lost generation - wait a minute / wasting time": {
+            "best": {
+                "seller": "johnmanshiprecords",
+                "name": "The Lost Generation - Wait A Minute / Wasting Time (7\", Single, Styrene)",
+                "condition": "Near Mint (NM or M-)",
+                "price_nzd": 34.45974659636421,
+                "shipping_inc_nzd": 43.54641326303088,
+                "total_inc_tax_ship_nzd": 50.07895789114303
+            },
+            "close_seconds": [],
+            "all": [
+                {
+                    "seller": "johnmanshiprecords",
+                    "name": "The Lost Generation - Wait A Minute / Wasting Time (7\", Single, Styrene)",
+                    "condition": "Near Mint (NM or M-)",
+                    "price_nzd": 34.45974659636421,
+                    "shipping_inc_nzd": 43.54641326303088,
+                    "total_inc_tax_ship_nzd": 50.07895789114303
+                }
+            ]
+        },
+        "ted taylor - somebody's gettin' it (7\")": {
+            "best": {
+                "seller": "recordsbymail",
+                "name": "Ted Taylor - Somebody's Gettin' It (7\")",
+                "condition": "Near Mint (NM or M-)",
+                "price_nzd": 10.200000000000001,
+                "shipping_inc_nzd": 21.533333333333335,
+                "total_inc_tax_ship_nzd": 24.763333333333332
+            },
+            "close_seconds": [],
+            "all": [
+                {
+                    "seller": "recordsbymail",
+                    "name": "Ted Taylor - Somebody's Gettin' It (7\")",
+                    "condition": "Near Mint (NM or M-)",
+                    "price_nzd": 10.200000000000001,
+                    "shipping_inc_nzd": 21.533333333333335,
+                    "total_inc_tax_ship_nzd": 24.763333333333332
+                },
+                {
+                    "seller": "johnmanshiprecords",
+                    "name": "Ted Taylor - Somebody's Gettin' It (7\")",
+                    "condition": "Very Good Plus (VG+)",
+                    "price_nzd": 18.539343668843948,
+                    "shipping_inc_nzd": 27.626010335510614,
+                    "total_inc_tax_ship_nzd": 31.770281514019374
+                }
+            ]
+        },
+        "doug shorts - get with the program / heads or tails": {
+            "best": {
+                "seller": "kaleidosmoker",
+                "name": "Doug Shorts - Get With The Program / Heads Or Tails (7\", Single)",
+                "condition": "Mint (M)",
+                "price_nzd": 56.0,
+                "shipping_inc_nzd": 65.16,
+                "total_inc_tax_ship_nzd": 74.93044711014177
+            },
+            "close_seconds": [],
+            "all": [
+                {
+                    "seller": "kaleidosmoker",
+                    "name": "Doug Shorts - Get With The Program / Heads Or Tails (7\", Single)",
+                    "condition": "Mint (M)",
+                    "price_nzd": 56.0,
+                    "shipping_inc_nzd": 65.16,
+                    "total_inc_tax_ship_nzd": 74.93044711014177
+                },
+                {
+                    "seller": "johnmanshiprecords",
+                    "name": "Doug Shorts - Get With The Program / Heads Or Tails (7\", Single)",
+                    "condition": "Near Mint (NM or M-)",
+                    "price_nzd": 64.3248603132132,
+                    "shipping_inc_nzd": 73.41152697987985,
+                    "total_inc_tax_ship_nzd": 84.42423825226963
+                }
+            ]
+        },
+        "howard tate - get it while you can / glad i knew better": {
+            "best": {
+                "seller": "johnmanshiprecords",
+                "name": "Howard Tate - Get It While You Can / Glad I Knew Better (7\", Single)",
+                "condition": "Near Mint (NM or M-)",
+                "price_nzd": 22.97316439757614,
+                "shipping_inc_nzd": 32.05983106424281,
+                "total_inc_tax_ship_nzd": 36.869234675325096
+            },
+            "close_seconds": [],
+            "all": [
+                {
+                    "seller": "johnmanshiprecords",
+                    "name": "Howard Tate - Get It While You Can / Glad I Knew Better (7\", Single)",
+                    "condition": "Near Mint (NM or M-)",
+                    "price_nzd": 22.97316439757614,
+                    "shipping_inc_nzd": 32.05983106424281,
+                    "total_inc_tax_ship_nzd": 36.869234675325096
+                }
+            ]
+        },
+        "thee lakesiders - si me faltaras tu / parachute": {
+            "best": {
+                "seller": "kaleidosmoker",
+                "name": "Thee Lakesiders - Si Me Faltaras Tu / Parachute (7\", Single, RE)",
+                "condition": "Mint (M)",
+                "price_nzd": 21.6,
+                "shipping_inc_nzd": 30.76,
+                "total_inc_tax_ship_nzd": 35.37232279171211
+            },
+            "close_seconds": [
+                {
+                    "seller": "pakis",
+                    "name": "Thee Lakesiders - Si Me Faltaras Tu / Parachute (7\", Single, RE)",
+                    "condition": "Mint (M)",
+                    "price_nzd": 22.0,
+                    "shipping_inc_nzd": 32.8,
+                    "total_inc_tax_ship_nzd": 37.72
+                }
+            ],
+            "all": [
+                {
+                    "seller": "kaleidosmoker",
+                    "name": "Thee Lakesiders - Si Me Faltaras Tu / Parachute (7\", Single, RE)",
+                    "condition": "Mint (M)",
+                    "price_nzd": 21.6,
+                    "shipping_inc_nzd": 30.76,
+                    "total_inc_tax_ship_nzd": 35.37232279171211
+                },
+                {
+                    "seller": "pakis",
+                    "name": "Thee Lakesiders - Si Me Faltaras Tu / Parachute (7\", Single, RE)",
+                    "condition": "Mint (M)",
+                    "price_nzd": 22.0,
+                    "shipping_inc_nzd": 32.8,
+                    "total_inc_tax_ship_nzd": 37.72
+                }
+            ]
+        },
+        "bobby oroza - your love is too cold (7\")": {
+            "best": {
+                "seller": "theslutbunny",
+                "name": "Bobby Oroza - Your Love Is Too Cold (7\")",
+                "condition": "Mint (M)",
+                "price_nzd": 16.913890746934225,
+                "shipping_inc_nzd": 28.247224080267557,
+                "total_inc_tax_ship_nzd": 32.487894966773624
+            },
+            "close_seconds": [],
+            "all": [
+                {
+                    "seller": "theslutbunny",
+                    "name": "Bobby Oroza - Your Love Is Too Cold (7\")",
+                    "condition": "Mint (M)",
+                    "price_nzd": 16.913890746934225,
+                    "shipping_inc_nzd": 28.247224080267557,
+                    "total_inc_tax_ship_nzd": 32.487894966773624
+                },
+                {
+                    "seller": "kaleidosmoker",
+                    "name": "Bobby Oroza - Your Love Is Too Cold (7\")",
+                    "condition": "Mint (M)",
+                    "price_nzd": 22.0,
+                    "shipping_inc_nzd": 31.16,
+                    "total_inc_tax_ship_nzd": 35.83230098146129
+                },
+                {
+                    "seller": "pakis",
+                    "name": "Bobby Oroza - Your Love Is Too Cold (7\")",
+                    "condition": "Mint (M)",
+                    "price_nzd": 22.0,
+                    "shipping_inc_nzd": 32.8,
+                    "total_inc_tax_ship_nzd": 37.72
+                }
+            ]
+        },
+        "otis brown and the delights - i\u2019ve got another / southside chicago": {
+            "best": {
+                "seller": "kaleidosmoker",
+                "name": "Otis Brown And The Delights (6) - I\u2019ve Got Another / Southside Chicago (7\", Single, RE)",
+                "condition": "Mint (M)",
+                "price_nzd": 16.0,
+                "shipping_inc_nzd": 25.16,
+                "total_inc_tax_ship_nzd": 28.932628135223556
+            },
+            "close_seconds": [
+                {
+                    "seller": "pakis",
+                    "name": "Otis Brown And The Delights (6) - I\u2019ve Got Another / Southside Chicago (7\", Single, RE)",
+                    "condition": "Mint (M)",
+                    "price_nzd": 16.0,
+                    "shipping_inc_nzd": 26.8,
+                    "total_inc_tax_ship_nzd": 30.820000000000004
+                }
+            ],
+            "all": [
+                {
+                    "seller": "kaleidosmoker",
+                    "name": "Otis Brown And The Delights (6) - I\u2019ve Got Another / Southside Chicago (7\", Single, RE)",
+                    "condition": "Mint (M)",
+                    "price_nzd": 16.0,
+                    "shipping_inc_nzd": 25.16,
+                    "total_inc_tax_ship_nzd": 28.932628135223556
+                },
+                {
+                    "seller": "pakis",
+                    "name": "Otis Brown And The Delights (6) - I\u2019ve Got Another / Southside Chicago (7\", Single, RE)",
+                    "condition": "Mint (M)",
+                    "price_nzd": 16.0,
+                    "shipping_inc_nzd": 26.8,
+                    "total_inc_tax_ship_nzd": 30.820000000000004
+                }
+            ]
+        },
+        "rocket - here comes my love": {
+            "best": {
+                "seller": "lou_spins",
+                "name": "Rocket (4) - Here Comes My Love (7\", Single)",
+                "condition": "Very Good (VG)",
+                "price_nzd": 40.0,
+                "shipping_inc_nzd": 86.9,
+                "total_inc_tax_ship_nzd": 99.94
+            },
+            "close_seconds": [],
+            "all": [
+                {
+                    "seller": "lou_spins",
+                    "name": "Rocket (4) - Here Comes My Love (7\", Single)",
+                    "condition": "Very Good (VG)",
+                    "price_nzd": 40.0,
+                    "shipping_inc_nzd": 86.9,
+                    "total_inc_tax_ship_nzd": 99.94
+                }
+            ]
+        },
+        "karriem - i love you": {
+            "best": {
+                "seller": "LuminoRecords",
+                "name": "Karriem - I Love You (12\", RE)",
+                "condition": "Mint (M)",
+                "price_nzd": 89.14044095286364,
+                "shipping_inc_nzd": 100.97186952429222,
+                "total_inc_tax_ship_nzd": 116.1207017712338
+            },
+            "close_seconds": [],
+            "all": [
+                {
+                    "seller": "LuminoRecords",
+                    "name": "Karriem - I Love You (12\", RE)",
+                    "condition": "Mint (M)",
+                    "price_nzd": 89.14044095286364,
+                    "shipping_inc_nzd": 100.97186952429222,
+                    "total_inc_tax_ship_nzd": 116.1207017712338
+                }
+            ]
+        },
+        "nik weston presents estiban* - lost funk & disco gems volume five - canadian disco boogie edition: official edits": {
+            "best": {
+                "seller": "LuminoRecords",
+                "name": "Nik Weston Presents Estiban* - Lost Funk & Disco Gems Volume Five - Canadian Disco Boogie Edition: Official Edits (12\", Ltd, RM, 180)",
+                "condition": "Near Mint (NM or M-)",
+                "price_nzd": 45.55098327420171,
+                "shipping_inc_nzd": 57.38241184563029,
+                "total_inc_tax_ship_nzd": 65.99150797378738
+            },
+            "close_seconds": [],
+            "all": [
+                {
+                    "seller": "LuminoRecords",
+                    "name": "Nik Weston Presents Estiban* - Lost Funk & Disco Gems Volume Five - Canadian Disco Boogie Edition: Official Edits (12\", Ltd, RM, 180)",
+                    "condition": "Near Mint (NM or M-)",
+                    "price_nzd": 45.55098327420171,
+                    "shipping_inc_nzd": 57.38241184563029,
+                    "total_inc_tax_ship_nzd": 65.99150797378738
+                }
+            ]
+        },
+        "cliff nobles / russell evans & the nite hawks - my love is getting stronger / the bold": {
+            "best": {
+                "seller": "LuminoRecords",
+                "name": "Cliff Nobles / Russell Evans & The Nite Hawks - My Love Is Getting Stronger / The Bold (7\", Single, Ltd, RE, RM)",
+                "condition": "Near Mint (NM or M-)",
+                "price_nzd": 32.47414597060314,
+                "shipping_inc_nzd": 44.30557454203171,
+                "total_inc_tax_ship_nzd": 50.952749834553444
+            },
+            "close_seconds": [],
+            "all": [
+                {
+                    "seller": "LuminoRecords",
+                    "name": "Cliff Nobles / Russell Evans & The Nite Hawks - My Love Is Getting Stronger / The Bold (7\", Single, Ltd, RE, RM)",
+                    "condition": "Near Mint (NM or M-)",
+                    "price_nzd": 32.47414597060314,
+                    "shipping_inc_nzd": 44.30557454203171,
+                    "total_inc_tax_ship_nzd": 50.952749834553444
+                }
+            ]
+        },
+        "symbol 8 - i thought you wanted to dance (12\", maxi)": {
+            "best": {
+                "seller": "LuminoRecords",
+                "name": "Symbol 8 - I Thought You Wanted To Dance (12\", Maxi)",
+                "condition": "Mint (M)",
+                "price_nzd": 84.78149518499745,
+                "shipping_inc_nzd": 96.61292375642603,
+                "total_inc_tax_ship_nzd": 111.10778239148917
+            },
+            "close_seconds": [],
+            "all": [
+                {
+                    "seller": "LuminoRecords",
+                    "name": "Symbol 8 - I Thought You Wanted To Dance (12\", Maxi)",
+                    "condition": "Mint (M)",
+                    "price_nzd": 84.78149518499745,
+                    "shipping_inc_nzd": 96.61292375642603,
+                    "total_inc_tax_ship_nzd": 111.10778239148917
+                }
+            ]
+        },
+        "lew kirton - something special / love, i don't want your love (7\")": {
+            "best": {
+                "seller": "LuminoRecords",
+                "name": "Lew Kirton - Something Special / Love, I Don't Want Your Love (7\")",
+                "condition": "Near Mint (NM or M-)",
+                "price_nzd": 25.93572731880385,
+                "shipping_inc_nzd": 37.76715589023242,
+                "total_inc_tax_ship_nzd": 43.433370764936484
+            },
+            "close_seconds": [],
+            "all": [
+                {
+                    "seller": "LuminoRecords",
+                    "name": "Lew Kirton - Something Special / Love, I Don't Want Your Love (7\")",
+                    "condition": "Near Mint (NM or M-)",
+                    "price_nzd": 25.93572731880385,
+                    "shipping_inc_nzd": 37.76715589023242,
+                    "total_inc_tax_ship_nzd": 43.433370764936484
+                }
+            ]
+        },
+        "dee edwards - why can't there be love / i can deal with that": {
+            "best": {
+                "seller": "LuminoRecords",
+                "name": "Dee Edwards - Why Can't There Be Love / I Can Deal With That (7\", Single, Ltd)",
+                "condition": "Near Mint (NM or M-)",
+                "price_nzd": 110.93516979219461,
+                "shipping_inc_nzd": 122.76659836362319,
+                "total_inc_tax_ship_nzd": 141.185298669957
+            },
+            "close_seconds": [],
+            "all": [
+                {
+                    "seller": "LuminoRecords",
+                    "name": "Dee Edwards - Why Can't There Be Love / I Can Deal With That (7\", Single, Ltd)",
+                    "condition": "Near Mint (NM or M-)",
+                    "price_nzd": 110.93516979219461,
+                    "shipping_inc_nzd": 122.76659836362319,
+                    "total_inc_tax_ship_nzd": 141.185298669957
+                }
+            ]
+        },
+        "sleepy's theme - the vinyl room": {
+            "best": {
+                "seller": "pakis",
+                "name": "Sleepy's Theme - The Vinyl Room (2xLP, Dlx, Ltd, RM, S/Edition, 180)",
+                "condition": "Mint (M)",
+                "price_nzd": 70.0,
+                "shipping_inc_nzd": 80.8,
+                "total_inc_tax_ship_nzd": 92.92
+            },
+            "close_seconds": [],
+            "all": [
+                {
+                    "seller": "pakis",
+                    "name": "Sleepy's Theme - The Vinyl Room (2xLP, Dlx, Ltd, RM, S/Edition, 180)",
+                    "condition": "Mint (M)",
+                    "price_nzd": 70.0,
+                    "shipping_inc_nzd": 80.8,
+                    "total_inc_tax_ship_nzd": 92.92
+                }
+            ]
+        },
+        "the mighty zaf, linkwood - get another love / he made you mine (12\", ep)": {
+            "best": {
+                "seller": "pussclod",
+                "name": "The Mighty Zaf, Linkwood - Get Another Love / He Made You Mine (12\", EP)",
+                "condition": "Mint (M)",
+                "price_nzd": 57.41071661237785,
+                "shipping_inc_nzd": 87.50571661237785,
+                "total_inc_tax_ship_nzd": 100.63184940064367
+            },
+            "close_seconds": [],
+            "all": [
+                {
+                    "seller": "pussclod",
+                    "name": "The Mighty Zaf, Linkwood - Get Another Love / He Made You Mine (12\", EP)",
+                    "condition": "Mint (M)",
+                    "price_nzd": 57.41071661237785,
+                    "shipping_inc_nzd": 87.50571661237785,
+                    "total_inc_tax_ship_nzd": 100.63184940064367
+                }
+            ]
+        },
+        "rahaan - the ones": {
+            "best": {
+                "seller": "pussclod",
+                "name": "Rahaan - The Ones (2xLP, Album)",
+                "condition": "Mint (M)",
+                "price_nzd": 41.32928338762215,
+                "shipping_inc_nzd": 71.42428338762215,
+                "total_inc_tax_ship_nzd": 82.13815059935632
+            },
+            "close_seconds": [],
+            "all": [
+                {
+                    "seller": "pussclod",
+                    "name": "Rahaan - The Ones (2xLP, Album)",
+                    "condition": "Mint (M)",
+                    "price_nzd": 41.32928338762215,
+                    "shipping_inc_nzd": 71.42428338762215,
+                    "total_inc_tax_ship_nzd": 82.13815059935632
+                }
+            ]
+        },
+        "rocket - here comes my love (7\")": {
+            "best": {
+                "seller": "recordsbymail",
+                "name": "Rocket (4) - Here Comes My Love (7\")",
+                "condition": "Near Mint (NM or M-)",
+                "price_nzd": 68.0,
+                "shipping_inc_nzd": 79.33333333333333,
+                "total_inc_tax_ship_nzd": 91.23333333333332
+            },
+            "close_seconds": [],
+            "all": [
+                {
+                    "seller": "recordsbymail",
+                    "name": "Rocket (4) - Here Comes My Love (7\")",
+                    "condition": "Near Mint (NM or M-)",
+                    "price_nzd": 68.0,
+                    "shipping_inc_nzd": 79.33333333333333,
+                    "total_inc_tax_ship_nzd": 91.23333333333332
+                }
+            ]
+        },
+        "lucifer - old mother nature (7\")": {
+            "best": {
+                "seller": "recordsbymail",
+                "name": "Lucifer (9) - Old Mother Nature (7\")",
+                "condition": "Near Mint (NM or M-)",
+                "price_nzd": 10.200000000000001,
+                "shipping_inc_nzd": 21.533333333333335,
+                "total_inc_tax_ship_nzd": 24.763333333333332
+            },
+            "close_seconds": [],
+            "all": [
+                {
+                    "seller": "recordsbymail",
+                    "name": "Lucifer (9) - Old Mother Nature (7\")",
+                    "condition": "Near Mint (NM or M-)",
+                    "price_nzd": 10.200000000000001,
+                    "shipping_inc_nzd": 21.533333333333335,
+                    "total_inc_tax_ship_nzd": 24.763333333333332
+                }
+            ]
+        },
+        "lord sear / stak chedda - alcoholic vibes / my hindu love (12\")": {
+            "best": {
+                "seller": "recordshopshibuya",
+                "name": "Lord Sear / Stak Chedda - Alcoholic Vibes / My Hindu Love (12\")",
+                "condition": "Very Good Plus (VG+)",
+                "price_nzd": 15.431189427312775,
+                "shipping_inc_nzd": 27.52547514159849,
+                "total_inc_tax_ship_nzd": 31.653525746680934
+            },
+            "close_seconds": [],
+            "all": [
+                {
+                    "seller": "recordshopshibuya",
+                    "name": "Lord Sear / Stak Chedda - Alcoholic Vibes / My Hindu Love (12\")",
+                    "condition": "Very Good Plus (VG+)",
+                    "price_nzd": 15.431189427312775,
+                    "shipping_inc_nzd": 27.52547514159849,
+                    "total_inc_tax_ship_nzd": 31.653525746680934
+                }
+            ]
+        },
+        "chico & coolwadda featuring nate dogg - high come down": {
+            "best": {
+                "seller": "recordshopshibuya",
+                "name": "Chico & Coolwadda Featuring Nate Dogg - High Come Down (12\", Single, Promo)",
+                "condition": "Very Good Plus (VG+)",
+                "price_nzd": 10.287459618208517,
+                "shipping_inc_nzd": 22.381745332494233,
+                "total_inc_tax_ship_nzd": 25.738380481835325
+            },
+            "close_seconds": [],
+            "all": [
+                {
+                    "seller": "recordshopshibuya",
+                    "name": "Chico & Coolwadda Featuring Nate Dogg - High Come Down (12\", Single, Promo)",
+                    "condition": "Very Good Plus (VG+)",
+                    "price_nzd": 10.287459618208517,
+                    "shipping_inc_nzd": 22.381745332494233,
+                    "total_inc_tax_ship_nzd": 25.738380481835325
+                }
+            ]
+        },
+        "was a bee - this is what you are / on a clear day": {
+            "best": {
+                "seller": "recordshopshibuya",
+                "name": "Was A Bee - This Is What You Are / On A Clear Day (12\", Single)",
+                "condition": "Very Good (VG)",
+                "price_nzd": 20.574919236417035,
+                "shipping_inc_nzd": 32.66920495070275,
+                "total_inc_tax_ship_nzd": 37.56867101152654
+            },
+            "close_seconds": [],
+            "all": [
+                {
+                    "seller": "recordshopshibuya",
+                    "name": "Was A Bee - This Is What You Are / On A Clear Day (12\", Single)",
+                    "condition": "Very Good (VG)",
+                    "price_nzd": 20.574919236417035,
+                    "shipping_inc_nzd": 32.66920495070275,
+                    "total_inc_tax_ship_nzd": 37.56867101152654
+                }
+            ]
+        },
+        "theo parrish - you forgot / dirt rhodes (12\")": {
+            "best": {
+                "seller": "recordshopshibuya",
+                "name": "Theo Parrish - You Forgot / Dirt Rhodes (12\")",
+                "condition": "Very Good (VG)",
+                "price_nzd": 12.859324522760646,
+                "shipping_inc_nzd": 24.953610237046362,
+                "total_inc_tax_ship_nzd": 28.695953114258128
+            },
+            "close_seconds": [],
+            "all": [
+                {
+                    "seller": "recordshopshibuya",
+                    "name": "Theo Parrish - You Forgot / Dirt Rhodes (12\")",
+                    "condition": "Very Good (VG)",
+                    "price_nzd": 12.859324522760646,
+                    "shipping_inc_nzd": 24.953610237046362,
+                    "total_inc_tax_ship_nzd": 28.695953114258128
+                }
+            ]
+        },
+        "theo parrish - first floor (part 2) (2x12\")": {
+            "best": {
+                "seller": "recordshopshibuya",
+                "name": "Theo Parrish - First Floor (Part 2) (2x12\")",
+                "condition": "Very Good (VG)",
+                "price_nzd": 64.29662261380324,
+                "shipping_inc_nzd": 76.39090832808895,
+                "total_inc_tax_ship_nzd": 87.84740576271423
+            },
+            "close_seconds": [],
+            "all": [
+                {
+                    "seller": "recordshopshibuya",
+                    "name": "Theo Parrish - First Floor (Part 2) (2x12\")",
+                    "condition": "Very Good (VG)",
+                    "price_nzd": 64.29662261380324,
+                    "shipping_inc_nzd": 76.39090832808895,
+                    "total_inc_tax_ship_nzd": 87.84740576271423
+                }
+            ]
+        },
+        "bileo - you can win": {
+            "best": {
+                "seller": "srhb86",
+                "name": "Bileo - You Can Win (7\", RP, Pur)",
+                "condition": "Very Good Plus (VG+)",
+                "price_nzd": 80.41,
+                "shipping_inc_nzd": 112.57,
+                "total_inc_tax_ship_nzd": 129.45
+            },
+            "close_seconds": [],
+            "all": [
+                {
+                    "seller": "srhb86",
+                    "name": "Bileo - You Can Win (7\", RP, Pur)",
+                    "condition": "Very Good Plus (VG+)",
+                    "price_nzd": 80.41,
+                    "shipping_inc_nzd": 112.57,
+                    "total_inc_tax_ship_nzd": 129.45
+                }
+            ]
+        }
+    },
+    "items_summary": {
+        "rocket - here comes my love (12\")": [
+            {
+                "seller": "climate_ctrl",
+                "name": "Rocket (4) - Here Comes My Love (12\")",
+                "condition": "Very Good Plus (VG+)",
+                "price_nzd": 16.061999999999998,
+                "shipping_inc_nzd": 51.762,
+                "total_inc_tax_ship_nzd": 59.528672710604056
+            },
+            {
+                "seller": "funkypaella",
+                "name": "Rocket (4) - Here Comes My Love (12\")",
+                "condition": "Very Good Plus (VG+)",
+                "price_nzd": 18.0,
+                "shipping_inc_nzd": 53.0,
+                "total_inc_tax_ship_nzd": 60.96000000000001
+            },
+            {
+                "seller": "DJ_Martin_M",
+                "name": "Rocket (4) - Here Comes My Love (12\")",
+                "condition": "Very Good Plus (VG+)",
+                "price_nzd": 27.8,
+                "shipping_inc_nzd": 53.6,
+                "total_inc_tax_ship_nzd": 61.66
+            },
+            {
+                "seller": "wbmx4life",
+                "name": "Rocket (4) - Here Comes My Love (12\")",
+                "condition": "Near Mint (NM or M-)",
+                "price_nzd": 16.98,
+                "shipping_inc_nzd": 84.98,
+                "total_inc_tax_ship_nzd": 97.72999999999999
+            }
+        ],
+        "sister sledge - we are family": [
+            {
+                "seller": "climate_ctrl",
+                "name": "Sister Sledge - We Are Family (LP, Album, RI )",
+                "condition": "Very Good (VG)",
+                "price_nzd": 10.708,
+                "shipping_inc_nzd": 46.408,
+                "total_inc_tax_ship_nzd": 53.37132728939595
+            },
+            {
+                "seller": "recordshopshibuya",
+                "name": "Sister Sledge - We Are Family (LP, Album, PR )",
+                "condition": "Very Good Plus (VG+)",
+                "price_nzd": 36.54191385217817,
+                "shipping_inc_nzd": 48.63619956646389,
+                "total_inc_tax_ship_nzd": 55.930267771151456
+            }
+        ],
+        "ike noble & the uptights* - it's bad / best of luck to you": [
+            {
+                "seller": "kaleidosmoker",
+                "name": "Ike Noble & The Uptights* - It's Bad / Best Of Luck To You (7\", Single)",
+                "condition": "Mint (M)",
+                "price_nzd": 22.0,
+                "shipping_inc_nzd": 31.16,
+                "total_inc_tax_ship_nzd": 35.83230098146129
+            },
+            {
+                "seller": "pakis",
+                "name": "Ike Noble & The Uptights* - It's Bad / Best Of Luck To You (7\", Single)",
+                "condition": "Mint (M)",
+                "price_nzd": 22.0,
+                "shipping_inc_nzd": 32.8,
+                "total_inc_tax_ship_nzd": 37.72
+            },
+            {
+                "seller": "theslutbunny",
+                "name": "Ike Noble & The Uptights* - It's Bad / Best Of Luck To You (7\", Single)",
+                "condition": "Mint (M)",
+                "price_nzd": 25.413333333333334,
+                "shipping_inc_nzd": 36.74666666666667,
+                "total_inc_tax_ship_nzd": 42.26333333333334
+            },
+            {
+                "seller": "decks.de",
+                "name": "Ike Noble & The Uptights* - It's Bad / Best Of Luck To You (7\", Single)",
+                "condition": "Mint (M)",
+                "price_nzd": 37.78000000000001,
+                "shipping_inc_nzd": 65.12,
+                "total_inc_tax_ship_nzd": 74.88695428754953
+            }
+        ],
+        "doc severinsen - i wanna be with you (dj harvey's pacific beach edit)": [
+            {
+                "seller": "decks.de",
+                "name": "Doc Severinsen - I Wanna Be With You (DJ Harvey's Pacific Beach Edit) (12\", RE, RM)",
+                "condition": "Mint (M)",
+                "price_nzd": 33.260000000000005,
+                "shipping_inc_nzd": 60.60000000000001,
+                "total_inc_tax_ship_nzd": 69.68902687078473
+            }
+        ],
+        "hudson people - trip to your mind (dj friction reworks)": [
+            {
+                "seller": "theslutbunny",
+                "name": "Hudson People - Trip To Your Mind (DJ Friction Reworks) (7\", Single, Ltd)",
+                "condition": "Mint (M)",
+                "price_nzd": 33.91277591973244,
+                "shipping_inc_nzd": 45.246109253065775,
+                "total_inc_tax_ship_nzd": 52.038771699893054
+            },
+            {
+                "seller": "LuminoRecords",
+                "name": "Hudson People - Trip To Your Mind (DJ Friction Reworks) (7\", Single, Ltd)",
+                "condition": "Mint (M)",
+                "price_nzd": 41.192037506335524,
+                "shipping_inc_nzd": 53.0234660777641,
+                "total_inc_tax_ship_nzd": 60.97858859404274
+            },
+            {
+                "seller": "decks.de",
+                "name": "Hudson People - Trip To Your Mind (DJ Friction Reworks) (7\", Single, Ltd)",
+                "condition": "Mint (M)",
+                "price_nzd": 33.760000000000005,
+                "shipping_inc_nzd": 61.10000000000001,
+                "total_inc_tax_ship_nzd": 70.26401884166579
+            }
+        ],
+        "rocket - rocket": [
+            {
+                "seller": "Emper0rTomato",
+                "name": "Rocket (4) - Rocket (LP, Album)",
+                "condition": "Very Good Plus (VG+)",
+                "price_nzd": 221.0,
+                "shipping_inc_nzd": 255.0,
+                "total_inc_tax_ship_nzd": 293.25
+            }
+        ],
+        "bileo - you can win (7\", rp)": [
+            {
+                "seller": "For_The_Love_of_Haus",
+                "name": "Bileo - You Can Win (7\", RP)",
+                "condition": "Mint (M)",
+                "price_nzd": 94.32,
+                "shipping_inc_nzd": 130.32,
+                "total_inc_tax_ship_nzd": 149.86
+            },
+            {
+                "seller": "funkymonkeywax",
+                "name": "Bileo - You Can Win (7\", RP)",
+                "condition": "Mint (M)",
+                "price_nzd": 114.86000000000001,
+                "shipping_inc_nzd": 170.0,
+                "total_inc_tax_ship_nzd": 195.49999999999997
+            }
+        ],
+        "mel & tim - good guys only win in the movies": [
+            {
+                "seller": "GROOVE-CITY",
+                "name": "Mel & Tim - Good Guys Only Win In The Movies (LP, Album)",
+                "condition": "Very Good (VG)",
+                "price_nzd": 33.575327692052426,
+                "shipping_inc_nzd": 56.950327692052426,
+                "total_inc_tax_ship_nzd": 65.49171435703212
+            },
+            {
+                "seller": "recordshopshibuya",
+                "name": "Mel & Tim - Good Guys Only Win In The Movies (LP, Album, Mon)",
+                "condition": "Very Good Plus (VG+)",
+                "price_nzd": 58.93857072931963,
+                "shipping_inc_nzd": 71.03285644360534,
+                "total_inc_tax_ship_nzd": 81.68579611183337
+            }
+        ],
+        "denroy morgan - i'll do anything for you": [
+            {
+                "seller": "GROOVE-CITY",
+                "name": "Denroy Morgan - I'll Do Anything For You (12\", Promo)",
+                "condition": "Very Good (VG)",
+                "price_nzd": 13.209128919860627,
+                "shipping_inc_nzd": 36.584128919860625,
+                "total_inc_tax_ship_nzd": 42.07100149056232
+            }
+        ],
+        "the gap band - early in the morning (12\", 53,)": [
+            {
+                "seller": "GROOVE-CITY",
+                "name": "The Gap Band - Early In The Morning (12\", 53,)",
+                "condition": "Very Good Plus (VG+)",
+                "price_nzd": 13.209128919860627,
+                "shipping_inc_nzd": 36.584128919860625,
+                "total_inc_tax_ship_nzd": 42.07100149056232
+            }
+        ],
+        "devin the dude - i hi / just a man / doobie ashtray / lacville 79": [
+            {
+                "seller": "GROOVE-CITY",
+                "name": "Devin The Dude - I Hi / Just A Man / Doobie Ashtray / Lacville 79 (12\", Promo)",
+                "condition": "Near Mint (NM or M-)",
+                "price_nzd": 42.46641446822631,
+                "shipping_inc_nzd": 65.8414144682263,
+                "total_inc_tax_ship_nzd": 75.71628266184322
+            }
+        ],
+        "darrell banks - open the door to your heart / our love (is in the pocket)": [
+            {
+                "seller": "johnmanshiprecords",
+                "name": "Darrell Banks - Open The Door To Your Heart / Our Love (Is In The Pocket) (7\", Single, Styrene, Ter)",
+                "condition": "Very Good (VG)",
+                "price_nzd": 41.35169591563706,
+                "shipping_inc_nzd": 50.438362582303725,
+                "total_inc_tax_ship_nzd": 58.004791820633784
+            }
+        ],
+        "the ronettes - be my baby": [
+            {
+                "seller": "johnmanshiprecords",
+                "name": "The Ronettes - Be My Baby (7\", Single)",
+                "condition": "Very Good (VG)",
+                "price_nzd": 22.97316439757614,
+                "shipping_inc_nzd": 32.05983106424281,
+                "total_inc_tax_ship_nzd": 36.869234675325096
+            }
+        ],
+        "sister sledge - thinking of you": [
+            {
+                "seller": "johnmanshiprecords",
+                "name": "Sister Sledge - Thinking Of You (12\", Single)",
+                "condition": "Very Good Plus (VG+)",
+                "price_nzd": 50.540961674667514,
+                "shipping_inc_nzd": 59.62762834133418,
+                "total_inc_tax_ship_nzd": 68.57257039328813
+            }
+        ],
+        "the outsiders - time won't let me / was it really real": [
+            {
+                "seller": "johnmanshiprecords",
+                "name": "The Outsiders (4) - Time Won't Let Me / Was It Really Real (7\", Single, Scr)",
+                "condition": "Very Good (VG)",
+                "price_nzd": 18.378531518060914,
+                "shipping_inc_nzd": 27.46519818472758,
+                "total_inc_tax_ship_nzd": 31.585345388997922
+            }
+        ],
+        "crusaders* - street life (special full length u.s. disco mix)": [
+            {
+                "seller": "johnmanshiprecords",
+                "name": "Crusaders* - Street Life (Special Full Length U.S. Disco Mix) (12\", Single, Ltd, Bla)",
+                "condition": "Very Good Plus (VG+)",
+                "price_nzd": 18.378531518060914,
+                "shipping_inc_nzd": 27.46519818472758,
+                "total_inc_tax_ship_nzd": 31.585345388997922
+            }
+        ],
+        "the lost generation - wait a minute / wasting time": [
+            {
+                "seller": "johnmanshiprecords",
+                "name": "The Lost Generation - Wait A Minute / Wasting Time (7\", Single, Styrene)",
+                "condition": "Near Mint (NM or M-)",
+                "price_nzd": 34.45974659636421,
+                "shipping_inc_nzd": 43.54641326303088,
+                "total_inc_tax_ship_nzd": 50.07895789114303
+            }
+        ],
+        "ted taylor - somebody's gettin' it (7\")": [
+            {
+                "seller": "recordsbymail",
+                "name": "Ted Taylor - Somebody's Gettin' It (7\")",
+                "condition": "Near Mint (NM or M-)",
+                "price_nzd": 10.200000000000001,
+                "shipping_inc_nzd": 21.533333333333335,
+                "total_inc_tax_ship_nzd": 24.763333333333332
+            },
+            {
+                "seller": "johnmanshiprecords",
+                "name": "Ted Taylor - Somebody's Gettin' It (7\")",
+                "condition": "Very Good Plus (VG+)",
+                "price_nzd": 18.539343668843948,
+                "shipping_inc_nzd": 27.626010335510614,
+                "total_inc_tax_ship_nzd": 31.770281514019374
+            }
+        ],
+        "doug shorts - get with the program / heads or tails": [
+            {
+                "seller": "kaleidosmoker",
+                "name": "Doug Shorts - Get With The Program / Heads Or Tails (7\", Single)",
+                "condition": "Mint (M)",
+                "price_nzd": 56.0,
+                "shipping_inc_nzd": 65.16,
+                "total_inc_tax_ship_nzd": 74.93044711014177
+            },
+            {
+                "seller": "johnmanshiprecords",
+                "name": "Doug Shorts - Get With The Program / Heads Or Tails (7\", Single)",
+                "condition": "Near Mint (NM or M-)",
+                "price_nzd": 64.3248603132132,
+                "shipping_inc_nzd": 73.41152697987985,
+                "total_inc_tax_ship_nzd": 84.42423825226963
+            }
+        ],
+        "howard tate - get it while you can / glad i knew better": [
+            {
+                "seller": "johnmanshiprecords",
+                "name": "Howard Tate - Get It While You Can / Glad I Knew Better (7\", Single)",
+                "condition": "Near Mint (NM or M-)",
+                "price_nzd": 22.97316439757614,
+                "shipping_inc_nzd": 32.05983106424281,
+                "total_inc_tax_ship_nzd": 36.869234675325096
+            }
+        ],
+        "thee lakesiders - si me faltaras tu / parachute": [
+            {
+                "seller": "kaleidosmoker",
+                "name": "Thee Lakesiders - Si Me Faltaras Tu / Parachute (7\", Single, RE)",
+                "condition": "Mint (M)",
+                "price_nzd": 21.6,
+                "shipping_inc_nzd": 30.76,
+                "total_inc_tax_ship_nzd": 35.37232279171211
+            },
+            {
+                "seller": "pakis",
+                "name": "Thee Lakesiders - Si Me Faltaras Tu / Parachute (7\", Single, RE)",
+                "condition": "Mint (M)",
+                "price_nzd": 22.0,
+                "shipping_inc_nzd": 32.8,
+                "total_inc_tax_ship_nzd": 37.72
+            }
+        ],
+        "bobby oroza - your love is too cold (7\")": [
+            {
+                "seller": "theslutbunny",
+                "name": "Bobby Oroza - Your Love Is Too Cold (7\")",
+                "condition": "Mint (M)",
+                "price_nzd": 16.913890746934225,
+                "shipping_inc_nzd": 28.247224080267557,
+                "total_inc_tax_ship_nzd": 32.487894966773624
+            },
+            {
+                "seller": "kaleidosmoker",
+                "name": "Bobby Oroza - Your Love Is Too Cold (7\")",
+                "condition": "Mint (M)",
+                "price_nzd": 22.0,
+                "shipping_inc_nzd": 31.16,
+                "total_inc_tax_ship_nzd": 35.83230098146129
+            },
+            {
+                "seller": "pakis",
+                "name": "Bobby Oroza - Your Love Is Too Cold (7\")",
+                "condition": "Mint (M)",
+                "price_nzd": 22.0,
+                "shipping_inc_nzd": 32.8,
+                "total_inc_tax_ship_nzd": 37.72
+            }
+        ],
+        "otis brown and the delights - i\u2019ve got another / southside chicago": [
+            {
+                "seller": "kaleidosmoker",
+                "name": "Otis Brown And The Delights (6) - I\u2019ve Got Another / Southside Chicago (7\", Single, RE)",
+                "condition": "Mint (M)",
+                "price_nzd": 16.0,
+                "shipping_inc_nzd": 25.16,
+                "total_inc_tax_ship_nzd": 28.932628135223556
+            },
+            {
+                "seller": "pakis",
+                "name": "Otis Brown And The Delights (6) - I\u2019ve Got Another / Southside Chicago (7\", Single, RE)",
+                "condition": "Mint (M)",
+                "price_nzd": 16.0,
+                "shipping_inc_nzd": 26.8,
+                "total_inc_tax_ship_nzd": 30.820000000000004
+            }
+        ],
+        "rocket - here comes my love": [
+            {
+                "seller": "lou_spins",
+                "name": "Rocket (4) - Here Comes My Love (7\", Single)",
+                "condition": "Very Good (VG)",
+                "price_nzd": 40.0,
+                "shipping_inc_nzd": 86.9,
+                "total_inc_tax_ship_nzd": 99.94
+            }
+        ],
+        "karriem - i love you": [
+            {
+                "seller": "LuminoRecords",
+                "name": "Karriem - I Love You (12\", RE)",
+                "condition": "Mint (M)",
+                "price_nzd": 89.14044095286364,
+                "shipping_inc_nzd": 100.97186952429222,
+                "total_inc_tax_ship_nzd": 116.1207017712338
+            }
+        ],
+        "nik weston presents estiban* - lost funk & disco gems volume five - canadian disco boogie edition: official edits": [
+            {
+                "seller": "LuminoRecords",
+                "name": "Nik Weston Presents Estiban* - Lost Funk & Disco Gems Volume Five - Canadian Disco Boogie Edition: Official Edits (12\", Ltd, RM, 180)",
+                "condition": "Near Mint (NM or M-)",
+                "price_nzd": 45.55098327420171,
+                "shipping_inc_nzd": 57.38241184563029,
+                "total_inc_tax_ship_nzd": 65.99150797378738
+            }
+        ],
+        "cliff nobles / russell evans & the nite hawks - my love is getting stronger / the bold": [
+            {
+                "seller": "LuminoRecords",
+                "name": "Cliff Nobles / Russell Evans & The Nite Hawks - My Love Is Getting Stronger / The Bold (7\", Single, Ltd, RE, RM)",
+                "condition": "Near Mint (NM or M-)",
+                "price_nzd": 32.47414597060314,
+                "shipping_inc_nzd": 44.30557454203171,
+                "total_inc_tax_ship_nzd": 50.952749834553444
+            }
+        ],
+        "symbol 8 - i thought you wanted to dance (12\", maxi)": [
+            {
+                "seller": "LuminoRecords",
+                "name": "Symbol 8 - I Thought You Wanted To Dance (12\", Maxi)",
+                "condition": "Mint (M)",
+                "price_nzd": 84.78149518499745,
+                "shipping_inc_nzd": 96.61292375642603,
+                "total_inc_tax_ship_nzd": 111.10778239148917
+            }
+        ],
+        "lew kirton - something special / love, i don't want your love (7\")": [
+            {
+                "seller": "LuminoRecords",
+                "name": "Lew Kirton - Something Special / Love, I Don't Want Your Love (7\")",
+                "condition": "Near Mint (NM or M-)",
+                "price_nzd": 25.93572731880385,
+                "shipping_inc_nzd": 37.76715589023242,
+                "total_inc_tax_ship_nzd": 43.433370764936484
+            }
+        ],
+        "dee edwards - why can't there be love / i can deal with that": [
+            {
+                "seller": "LuminoRecords",
+                "name": "Dee Edwards - Why Can't There Be Love / I Can Deal With That (7\", Single, Ltd)",
+                "condition": "Near Mint (NM or M-)",
+                "price_nzd": 110.93516979219461,
+                "shipping_inc_nzd": 122.76659836362319,
+                "total_inc_tax_ship_nzd": 141.185298669957
+            }
+        ],
+        "sleepy's theme - the vinyl room": [
+            {
+                "seller": "pakis",
+                "name": "Sleepy's Theme - The Vinyl Room (2xLP, Dlx, Ltd, RM, S/Edition, 180)",
+                "condition": "Mint (M)",
+                "price_nzd": 70.0,
+                "shipping_inc_nzd": 80.8,
+                "total_inc_tax_ship_nzd": 92.92
+            }
+        ],
+        "the mighty zaf, linkwood - get another love / he made you mine (12\", ep)": [
+            {
+                "seller": "pussclod",
+                "name": "The Mighty Zaf, Linkwood - Get Another Love / He Made You Mine (12\", EP)",
+                "condition": "Mint (M)",
+                "price_nzd": 57.41071661237785,
+                "shipping_inc_nzd": 87.50571661237785,
+                "total_inc_tax_ship_nzd": 100.63184940064367
+            }
+        ],
+        "rahaan - the ones": [
+            {
+                "seller": "pussclod",
+                "name": "Rahaan - The Ones (2xLP, Album)",
+                "condition": "Mint (M)",
+                "price_nzd": 41.32928338762215,
+                "shipping_inc_nzd": 71.42428338762215,
+                "total_inc_tax_ship_nzd": 82.13815059935632
+            }
+        ],
+        "rocket - here comes my love (7\")": [
+            {
+                "seller": "recordsbymail",
+                "name": "Rocket (4) - Here Comes My Love (7\")",
+                "condition": "Near Mint (NM or M-)",
+                "price_nzd": 68.0,
+                "shipping_inc_nzd": 79.33333333333333,
+                "total_inc_tax_ship_nzd": 91.23333333333332
+            }
+        ],
+        "lucifer - old mother nature (7\")": [
+            {
+                "seller": "recordsbymail",
+                "name": "Lucifer (9) - Old Mother Nature (7\")",
+                "condition": "Near Mint (NM or M-)",
+                "price_nzd": 10.200000000000001,
+                "shipping_inc_nzd": 21.533333333333335,
+                "total_inc_tax_ship_nzd": 24.763333333333332
+            }
+        ],
+        "lord sear / stak chedda - alcoholic vibes / my hindu love (12\")": [
+            {
+                "seller": "recordshopshibuya",
+                "name": "Lord Sear / Stak Chedda - Alcoholic Vibes / My Hindu Love (12\")",
+                "condition": "Very Good Plus (VG+)",
+                "price_nzd": 15.431189427312775,
+                "shipping_inc_nzd": 27.52547514159849,
+                "total_inc_tax_ship_nzd": 31.653525746680934
+            }
+        ],
+        "chico & coolwadda featuring nate dogg - high come down": [
+            {
+                "seller": "recordshopshibuya",
+                "name": "Chico & Coolwadda Featuring Nate Dogg - High Come Down (12\", Single, Promo)",
+                "condition": "Very Good Plus (VG+)",
+                "price_nzd": 10.287459618208517,
+                "shipping_inc_nzd": 22.381745332494233,
+                "total_inc_tax_ship_nzd": 25.738380481835325
+            }
+        ],
+        "was a bee - this is what you are / on a clear day": [
+            {
+                "seller": "recordshopshibuya",
+                "name": "Was A Bee - This Is What You Are / On A Clear Day (12\", Single)",
+                "condition": "Very Good (VG)",
+                "price_nzd": 20.574919236417035,
+                "shipping_inc_nzd": 32.66920495070275,
+                "total_inc_tax_ship_nzd": 37.56867101152654
+            }
+        ],
+        "theo parrish - you forgot / dirt rhodes (12\")": [
+            {
+                "seller": "recordshopshibuya",
+                "name": "Theo Parrish - You Forgot / Dirt Rhodes (12\")",
+                "condition": "Very Good (VG)",
+                "price_nzd": 12.859324522760646,
+                "shipping_inc_nzd": 24.953610237046362,
+                "total_inc_tax_ship_nzd": 28.695953114258128
+            }
+        ],
+        "theo parrish - first floor (part 2) (2x12\")": [
+            {
+                "seller": "recordshopshibuya",
+                "name": "Theo Parrish - First Floor (Part 2) (2x12\")",
+                "condition": "Very Good (VG)",
+                "price_nzd": 64.29662261380324,
+                "shipping_inc_nzd": 76.39090832808895,
+                "total_inc_tax_ship_nzd": 87.84740576271423
+            }
+        ],
+        "bileo - you can win": [
+            {
+                "seller": "srhb86",
+                "name": "Bileo - You Can Win (7\", RP, Pur)",
+                "condition": "Very Good Plus (VG+)",
+                "price_nzd": 80.41,
+                "shipping_inc_nzd": 112.57,
+                "total_inc_tax_ship_nzd": 129.45
+            }
+        ]
+    }
+}
